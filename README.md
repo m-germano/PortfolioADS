@@ -111,21 +111,6 @@ Minha trajetória profissional e acadêmica me ajudou a construir um perfil anal
 
 ---
 
-## Escala de proficiência
-
-Para indicar meus níveis de conhecimento, utilizo uma adaptação da **Taxonomia de Bloom**, conforme a escala abaixo:
-
-| Nível | Descrição |
-|---|---|
-| Ouvi falar | Tive contato inicial com o tema e reconheço sua finalidade |
-| Entendi | Compreendo os conceitos principais e consigo explicar sua aplicação |
-| Sei fazer com ajuda | Consigo aplicar o conhecimento com apoio, consulta ou orientação |
-| Sei fazer com autonomia | Consigo aplicar o conhecimento de forma independente em contextos reais |
-
-Como já ingressei na Fatec sabendo programar e com base prática em tecnologia, classifiquei as tecnologias exercitadas nos APIs como **Sei fazer com autonomia**. A principal exceção é o **Jira**, ferramenta que utilizei no contexto dos projetos, mas que ainda não considero dominar plenamente.
-
----
-
 ## Projetos desenvolvidos nos APIs
 
 | Semestre | Projeto | Tema | Papel principal | Arquivo |
@@ -148,14 +133,6 @@ No terceiro semestre, vivi a experiência mais marcante da minha trajetória at�
 No quarto semestre, aprofundei minha atuação em backend e inteligência artificial aplicada. No AdaTech, tive protagonismo na estrutura do sistema, na criação de regras de negócio e na implementação de recursos centrais envolvendo **RAG**, **Ollama** e automação da geração de instruções de registro aduaneiro. A experiência exigiu atenção a dados sensíveis, precisão técnica, integração entre IA e sistema web, além de cuidado com conformidade e revisão humana.
 
 Essa sequência mostra uma evolução clara: comecei organizando equipe e construindo páginas, avancei para implementação de funcionalidades completas, depois assumi responsabilidades de produto, dados e backend, e finalmente passei a atuar em soluções mais complexas envolvendo IA, automação e regras de negócio críticas.
-
----
-
-## Próximos passos
-
-Como ainda estou cursando ADS, este portfólio será expandido futuramente com os APIs do 5º e 6º semestres. Para os próximos projetos, pretendo aprofundar ainda mais meus conhecimentos em backend, arquitetura de software, dados, inteligência artificial, testes, documentação técnica e boas práticas de desenvolvimento.
-
-Meu objetivo é continuar evoluindo como profissional capaz de unir conhecimento técnico, visão de negócio e responsabilidade na construção de soluções úteis, bem estruturadas e sustentáveis.
 
 ---
 
