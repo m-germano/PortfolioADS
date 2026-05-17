@@ -1,69 +1,65 @@
 # API 4 - AdaTech
 
 <p align="center">
-  <strong>4º Semestre de ADS</strong><br>
+  <strong>4º Semestre - 2025-2</strong><br>
   Agente de Inteligência Artificial para automação da instrução de registro aduaneiro<br>
-  Papel exercido: <strong>Dev Team, backend principal, regras de negócio, RAG e integração com Ollama</strong>
+  Papel exercido no Scrum: <strong>Desenvolvedor</strong>
 </p>
 
 ---
 
 ## Atalhos
 
-- [Visão geral](#visão-geral)
-- [Cliente e parceiro acadêmico](#cliente-e-parceiro-acadêmico)
-- [Problema proposto](#problema-proposto)
-- [Solução desenvolvida](#solução-desenvolvida)
-- [Funcionalidades](#funcionalidades)
+- [Identificação do projeto](#identificação-do-projeto)
+- [Empresa parceira](#empresa-parceira)
+- [Problema](#problema)
+- [Solução](#solução)
+- [Link do repositório Git](#link-do-repositório-git)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [Minhas contribuições](#minhas-contribuições)
+- [Contribuições pessoais](#contribuições-pessoais)
 - [Hard skills](#hard-skills)
 - [Soft skills](#soft-skills)
 - [Aprendizados](#aprendizados)
-- [Links](#links)
 
 ---
 
-## Visão geral
-
-O quarto API teve como desafio a criação de um agente de inteligência artificial capaz de automatizar a elaboração da instrução de registro aduaneiro. O projeto recebeu o nome de **AdaTech** e tinha como objetivo reduzir erros humanos, retrabalho e riscos legais em um processo que exige precisão na descrição de produtos, classificação fiscal, fabricante, origem e demais informações relevantes.
-
-Nesse projeto, atuei como integrante do **Dev Team**, mas com forte protagonismo técnico no backend e na camada de inteligência artificial. Fui responsável pela estrutura da aplicação, criação da lógica de negócio, desenvolvimento de regras fundamentais para o funcionamento do sistema e implementação de recursos envolvendo **RAG**, **Ollama** e integração entre IA, backend, banco de dados e frontend.
-
----
-
-## Cliente e parceiro acadêmico
+## Identificação do projeto
 
 | Item | Descrição |
 |---|---|
-| Cliente | TecSys Brasil |
-| Representante | Creonice Honório |
-| Parceiro acadêmico | Fatec São José dos Campos - Prof. Jessen Vidal |
-| Repositório | [equipeAdalove/API-SEMESTRE4](https://github.com/equipeAdalove/API-SEMESTRE4) |
+| Semestre do curso | 4º semestre |
+| Ano e semestre | 2025-2 |
+| Nome do projeto | AdaTech |
+| Tipo de sistema | Plataforma web |
+| Papel no Scrum | Desenvolvedor |
 | Equipe | AdaLove |
-| Produto | AdaTech |
 
 ---
 
-## Problema proposto
+## Empresa parceira
+
+| Item | Descrição |
+|---|---|
+| Empresa parceira | TecSys Brasil |
+| Representante | Creonice Honório |
+| Área de atuação | Soluções tecnológicas aplicadas a processos aduaneiros e comércio exterior |
+| Parceiro acadêmico | Fatec São José dos Campos - Prof. Jessen Vidal |
+
+---
+
+## Problema
 
 A elaboração da instrução de registro aduaneiro é um processo manual que exige atenção a dados como Part-Number, classificação fiscal, fabricante, origem e endereço do fabricante. Quando essas informações são tratadas manualmente, podem ocorrer erros de interpretação, descrições ambíguas, retrabalho e riscos de questionamentos, penalidades ou multas.
 
-O desafio era criar uma solução que automatizasse esse processo de forma inteligente, gerando descrições claras, precisas e compatíveis com exigências legais. A ferramenta precisava apoiar a equipe responsável, reduzir esforço manual e aumentar a segurança das informações geradas para submissão à Receita Federal.
+O desafio era apoiar a geração de descrições claras, precisas e compatíveis com exigências legais. A empresa precisava reduzir esforço manual e aumentar a segurança das informações geradas para submissão à Receita Federal, sem eliminar a necessidade de revisão humana em um processo de alta responsabilidade.
 
 ---
 
-## Solução desenvolvida
+## Solução
 
-A solução desenvolvida foi o **AdaTech**, uma plataforma que utiliza inteligência artificial para automatizar a criação da instrução de registro aduaneiro. O sistema integra dados essenciais, como Part-Number, classificação fiscal, fabricante e origem, para gerar uma descrição do produto mais clara, padronizada e alinhada às exigências do processo aduaneiro.
+A equipe desenvolveu o **AdaTech**, uma **plataforma web** que utiliza inteligência artificial para apoiar a criação da instrução de registro aduaneiro. O sistema permite upload de PDFs de pedidos de compra, extração de Part-Numbers, sugestão de NCM e descrição dos itens, revisão manual das informações extraídas, geração de arquivo Excel com dados finais e consulta ao histórico de documentos processados.
 
-O MVP foi construído para permitir upload de PDFs de pedidos de compra, extração de Part-Numbers, sugestão de NCM e descrição dos itens, revisão manual das informações extraídas, geração de arquivo Excel com dados finais e consulta ao histórico de documentos processados.
-
-A proposta foi substituir um fluxo manual, demorado e sujeito a falhas por uma solução mais rápida, rastreável e confiável, sem eliminar a necessidade de revisão humana em um processo de alta responsabilidade.
-
----
-
-## Funcionalidades
+### Principais funcionalidades
 
 - Upload de PDF de pedido de compra.
 - Extração de Part-Numbers presentes no documento.
@@ -76,6 +72,12 @@ A proposta foi substituir um fluxo manual, demorado e sujeito a falhas por uma s
 - Histórico de PDFs processados.
 - Documentação de instalação e uso.
 - Integração entre backend, banco de dados, frontend e agente de IA.
+
+---
+
+## Link do repositório Git
+
+- [Repositório do projeto](https://github.com/equipeAdalove/API-SEMESTRE4)
 
 ---
 
@@ -96,53 +98,20 @@ A proposta foi substituir um fluxo manual, demorado e sujeito a falhas por uma s
 | Node.js | Apoio ao ambiente frontend |
 | Figma | Prototipação e apoio visual |
 | Slack | Comunicação da equipe |
-| Jira | Gestão das tarefas e sprints em nível de uso básico/intermediário |
+| Jira | Gestão das tarefas e sprints em nível básico/intermediário |
 | Git e GitHub | Versionamento e colaboração |
 
 ---
 
-## Minhas contribuições
+## Contribuições pessoais
 
-Atuei como desenvolvedor do **Dev Team**, com responsabilidade central no backend, estrutura da aplicação, regras de negócio e recursos de inteligência artificial.
+Atuei como **desenvolvedor** no time, com foco em backend, estrutura da aplicação, regras de negócio e recursos de inteligência artificial. Contribuí para a organização do fluxo de processamento entre upload, extração, sugestão, revisão e geração do arquivo final, além de apoiar a divisão entre responsabilidades do backend, frontend, banco de dados e agente de IA.
 
-### Contribuições em estrutura e arquitetura
+No backend, trabalhei com **Python**, **FastAPI** e **PostgreSQL** para desenvolver regras de negócio relacionadas ao processamento dos documentos, lidar com dados como Part-Number, NCM, fabricante, origem e descrição dos produtos, integrar backend e banco de dados, apoiar a criação de endpoints consumidos pelo frontend e organizar os dados finais exportáveis.
 
-- Contribuí para a organização da estrutura técnica do projeto.
-- Atuei na definição do fluxo de processamento entre upload, extração, sugestão, revisão e geração do arquivo final.
-- Apoiei a divisão entre responsabilidades do backend, frontend, banco de dados e agente de IA.
-- Trabalhei para que a aplicação mantivesse um fluxo claro e coerente para o usuário final.
-- Ajudei a estruturar a comunicação entre as camadas do sistema para reduzir inconsistências entre dados processados, respostas da IA e informações exibidas no frontend.
+Na camada de inteligência artificial, implementei recursos envolvendo **RAG** para melhorar o uso de contexto na geração das respostas e trabalhei na integração com **Ollama**, permitindo o uso local de modelo de linguagem dentro do fluxo da aplicação. Também apoiei a estruturação de prompts e respostas para que a IA retornasse informações mais úteis ao processo aduaneiro, considerando limitações da tecnologia e a necessidade de revisão humana antes da geração final das instruções.
 
-### Contribuições em backend
-
-- Atuei como desenvolvedor backend principal.
-- Desenvolvi regras de negócio relacionadas ao processamento dos documentos.
-- Implementei partes da lógica para lidar com dados como Part-Number, NCM, fabricante, origem e descrição dos produtos.
-- Trabalhei na integração entre backend e banco de dados.
-- Apoiei a criação de endpoints consumidos pelo frontend.
-- Contribuí para a geração e organização dos dados finais exportáveis.
-- Realizei ajustes para melhorar a confiabilidade do fluxo e reduzir inconsistências.
-
-### Contribuições em RAG, Ollama e IA
-
-- Implementei recursos envolvendo **RAG** para melhorar o uso de contexto na geração das respostas.
-- Trabalhei na integração com **Ollama**, permitindo uso local de modelo de linguagem dentro do fluxo da aplicação.
-- Apoiei a estruturação de prompts e respostas para que a IA retornasse informações mais úteis ao processo aduaneiro.
-- Contribuí para transformar a saída da IA em dados mais estruturados e aproveitáveis pelo sistema.
-- Considerei limitações da IA e a necessidade de revisão humana antes da geração final das instruções.
-- Atuei na conexão entre dados extraídos, contexto recuperado, resposta gerada e revisão pelo usuário.
-
-### Protagonismo no semestre
-
-Embora meu papel formal tenha sido Dev Team, minha atuação foi uma das mais centrais do projeto. Assumi responsabilidade direta por partes críticas do backend e da inteligência artificial, incluindo a implementação do RAG, a integração com Ollama e a lógica necessária para transformar documentos e dados de apoio em informações úteis para a instrução de registro aduaneiro.
-
-Esse protagonismo foi importante porque o AdaTech dependia de uma base técnica confiável. O valor da solução não estava apenas em usar IA, mas em integrar IA, regras de negócio, dados e revisão humana dentro de um fluxo seguro e aplicável a um problema real.
-
-### Importância da minha atuação
-
-Minha atuação foi importante porque o backend concentrava as regras essenciais do produto. Como o sistema lidava com um processo sensível de registro aduaneiro, era necessário garantir que os dados fossem tratados de forma organizada e que o fluxo permitisse revisão humana antes da geração final.
-
-Esse projeto também me permitiu aprofundar o uso de inteligência artificial em um contexto aplicado, entendendo seus benefícios e limitações. A solução não dependia apenas de gerar texto com IA, mas de recuperar contexto, estruturar dados, validar informações e apoiar um processo real de negócio.
+Os principais artefatos gerados foram endpoints da API, regras de processamento, integrações com banco de dados, fluxo de RAG, integração com Ollama, estruturação de prompts, organização dos dados exportáveis em Excel e ajustes de comunicação entre backend, IA e frontend.
 
 ---
 
@@ -161,22 +130,21 @@ Esse projeto também me permitiu aprofundar o uso de inteligência artificial em
 | React e TypeScript | Sei fazer com autonomia | Integração com frontend e apoio ao consumo da API |
 | Git e GitHub | Sei fazer com autonomia | Versionamento e colaboração no repositório |
 | Figma | Sei fazer com autonomia | Apoio visual e entendimento de fluxos de interface |
-| Jira | Sei fazer com ajuda | Uso para acompanhamento de tarefas, sem domínio avançado da ferramenta |
+| Jira | Faço com ajuda | Uso para acompanhamento de tarefas, sem domínio avançado da ferramenta |
 
 ---
 
 ## Soft skills
 
-| Soft skill | Situação em que foi exercitada |
+| Soft skill | Exemplo pontual no projeto |
 |---|---|
-| Responsabilidade | O projeto envolvia informações com impacto em processo aduaneiro, exigindo cuidado com precisão e rastreabilidade |
-| Pensamento crítico | Foi necessário entender limites da IA e estruturar o sistema para permitir revisão humana |
-| Protagonismo técnico | Assumi partes centrais do backend, da implementação do RAG e da integração com Ollama |
-| Colaboração | Trabalhei em conjunto com frontend, PO e demais integrantes para integrar o fluxo completo |
-| Organização técnica | Como backend principal, precisei manter regras e estrutura coerentes para sustentar o produto |
-| Resolução de problemas | O projeto exigiu lidar com documentos, extração de dados, sugestões de IA e exportação final |
-| Comunicação | Precisei alinhar contratos de dados e regras com o time para evitar divergências entre interface e backend |
-| Adaptabilidade | O uso de IA exigiu ajustes conforme testes, inconsistências e necessidades do cliente |
+| Responsabilidade | Como o sistema apoiava um processo aduaneiro sensível, tratei regras de processamento e dados exportáveis com cuidado para permitir revisão humana antes da geração final |
+| Pensamento crítico | Ao trabalhar com IA, considerei que as respostas do modelo poderiam conter inconsistências e ajudei a estruturar o fluxo para que o usuário pudesse revisar e corrigir as informações |
+| Organização técnica | Durante a definição do fluxo entre upload, extração, sugestão, revisão e exportação, organizei responsabilidades entre backend, banco de dados e agente de IA para reduzir inconsistências |
+| Colaboração | Alinhei contratos de dados com integrantes do frontend para que as informações extraídas e sugeridas pela IA fossem exibidas corretamente na interface |
+| Resolução de problemas | Ao lidar com documentos, sugestões de IA e geração de Excel, ajustei partes do fluxo para transformar respostas textuais em dados mais estruturados e aproveitáveis pelo sistema |
+| Comunicação | Durante a integração entre backend e frontend, expliquei regras e formatos de retorno para evitar divergências entre o processamento dos dados e a visualização na tela |
+| Adaptabilidade | O uso de RAG e Ollama exigiu ajustes conforme testes, inconsistências e necessidades do cliente, o que exigiu adaptação contínua durante as sprints |
 
 ---
 
@@ -187,13 +155,6 @@ O quarto API me ensinou que projetos com inteligência artificial exigem mais do
 Também aprendi que, em processos sensíveis, a automação deve apoiar o trabalho humano, não substituir completamente a responsabilidade de revisão. No caso do AdaTech, a IA ajudava a reduzir esforço manual e retrabalho, mas o sistema precisava permitir correções e validações antes da geração final.
 
 Do ponto de vista técnico, aprofundei minha experiência em backend com Python e FastAPI, integração com banco de dados, criação de regras de negócio e comunicação entre diferentes partes da aplicação. A implementação de recursos envolvendo RAG e Ollama reforçou meu interesse por soluções que combinam backend, inteligência artificial e automação de processos reais.
-
----
-
-## Links
-
-- [Repositório do projeto](https://github.com/equipeAdalove/API-SEMESTRE4)
-
 
 ---
 

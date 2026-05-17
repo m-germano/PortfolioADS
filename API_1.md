@@ -1,65 +1,64 @@
 # API 1 - Horus
 
 <p align="center">
-  <strong>1º Semestre de ADS</strong><br>
-  Site informativo sobre Metodologia Ágil<br>
-  Papel exercido: <strong>Scrum Master e desenvolvimento de páginas</strong>
+  <strong>1º Semestre - 2024-1</strong><br>
+  Sistema web informativo sobre Metodologia Ágil<br>
+  Papel exercido no Scrum: <strong>Scrum Master</strong>
 </p>
 
 ---
 
 ## Atalhos
 
-- [Visão geral](#visão-geral)
-- [Parceiro acadêmico](#parceiro-acadêmico)
-- [Problema proposto](#problema-proposto)
-- [Solução desenvolvida](#solução-desenvolvida)
-- [Funcionalidades](#funcionalidades)
+- [Identificação do projeto](#identificação-do-projeto)
+- [Empresa parceira](#empresa-parceira)
+- [Problema](#problema)
+- [Solução](#solução)
+- [Link do repositório Git](#link-do-repositório-git)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [Minhas contribuições](#minhas-contribuições)
+- [Contribuições pessoais](#contribuições-pessoais)
 - [Hard skills](#hard-skills)
 - [Soft skills](#soft-skills)
 - [Aprendizados](#aprendizados)
-- [Links](#links)
 
 ---
 
-## Visão geral
-
-O primeiro API teve como proposta o desenvolvimento de um site informativo simples, funcional e intuitivo sobre **Metodologia Ágil**. O projeto recebeu o nome de **Horus** e foi construído como uma aplicação web voltada a apresentar conceitos, fundamentos, exemplos práticos e avaliações relacionadas ao Scrum e às práticas ágeis.
-
-Esse projeto marcou meu primeiro contato prático com a metodologia de **Aprendizagem por Projetos Integrados** da Fatec. Mesmo já tendo base em programação antes de entrar no curso, o API trouxe um desafio diferente: desenvolver em equipe, organizar entregas por sprint, alinhar escopo e transformar conteúdo teórico em uma experiência acessível para o usuário.
-
----
-
-## Parceiro acadêmico
+## Identificação do projeto
 
 | Item | Descrição |
 |---|---|
-| Parceiro | Fatec São José dos Campos - Prof. Jessen Vidal |
-| Contexto | Projeto acadêmico desenvolvido no 1º semestre do curso de ADS |
-| Repositório | [m-germano/projetoAPI-horus](https://github.com/m-germano/projetoAPI-horus) |
+| Semestre do curso | 1º semestre |
+| Ano e semestre | 2024-1 |
+| Nome do projeto | Horus |
+| Tipo de sistema | Sistema web |
+| Papel no Scrum | Scrum Master |
 | Equipe | Grupo Horus |
 
 ---
 
-## Problema proposto
+## Empresa parceira
 
-O desafio consistia em criar um site que ajudasse usuários a compreenderem a Metodologia Ágil de forma clara, organizada e acessível. O conteúdo deveria apresentar conceitos importantes do Scrum, como Product Backlog, Sprint, Sprint Planning, Sprint Review, Daily, Retrospective, DoR, DoD, Planning Poker, Kanban, MVP e outros elementos do processo ágil.
-
-Além disso, o site precisava incluir mecanismos de avaliação para que o usuário pudesse testar seus conhecimentos e registrar feedbacks sobre o curso ou conteúdo apresentado. Dessa forma, o projeto não deveria ser apenas uma página estática, mas uma aplicação com navegação, organização de conteúdo e interação básica com o usuário.
-
----
-
-## Solução desenvolvida
-
-A solução criada pela equipe foi um site informativo sobre Metodologia Ágil, estruturado com páginas de conteúdo, avaliações e área administrativa. O sistema foi desenvolvido com foco em simplicidade, clareza visual e facilidade de navegação.
-
-O projeto permitia que o usuário acessasse explicações sobre os principais conceitos ágeis, realizasse avaliações de conhecimento e enviasse feedbacks. Também havia um fluxo administrativo para visualização do histórico de avaliações, reforçando a proposta de não apenas apresentar conteúdo, mas também coletar dados sobre a experiência do usuário.
+| Item | Descrição |
+|---|---|
+| Empresa parceira | Fatec São José dos Campos - Prof. Jessen Vidal |
+| Professor responsável pelos requisitos | Prof. Jessen Vidal |
+| Contexto | Projeto acadêmico desenvolvido no 1º semestre do curso de Análise e Desenvolvimento de Sistemas |
 
 ---
 
-## Funcionalidades
+## Problema
+
+Estudantes e pessoas interessadas em Metodologia Ágil muitas vezes encontram conteúdos sobre Scrum de forma dispersa, pouco organizada ou excessivamente teórica. Essa dificuldade prejudica a compreensão de conceitos importantes, como Product Backlog, Sprint, Daily, DoR, DoD, MVP, Kanban e Planning Poker, principalmente para usuários iniciantes.
+
+Além disso, quando o aprendizado ocorre apenas por leitura, o usuário pode não ter uma forma simples de testar se realmente compreendeu o conteúdo. Também existe dificuldade em coletar feedbacks sobre a clareza do material apresentado, o que limita melhorias futuras no conteúdo e na experiência de aprendizagem.
+
+---
+
+## Solução
+
+A equipe desenvolveu o **Horus**, um **sistema web** informativo sobre Metodologia Ágil. A solução reuniu páginas de conteúdo, avaliações de conhecimento, formulário de feedback, login administrativo e visualização de histórico de avaliações. O sistema foi construído com foco em navegação simples, organização visual e apresentação clara dos principais conceitos de Scrum e práticas ágeis.
+
+### Principais funcionalidades
 
 - Páginas informativas sobre Metodologia Ágil e Scrum.
 - Organização de conceitos como Product Backlog, Sprint, Daily, Sprint Review, Retrospective, DoR, DoD, Kanban, MVP e Planning Poker.
@@ -68,6 +67,12 @@ O projeto permitia que o usuário acessasse explicações sobre os principais co
 - Login administrativo.
 - Visualização de histórico de avaliações.
 - Guia de instalação e execução do projeto.
+
+---
+
+## Link do repositório Git
+
+- [Repositório do projeto](https://github.com/m-germano/projetoAPI-horus)
 
 ---
 
@@ -89,31 +94,11 @@ O projeto permitia que o usuário acessasse explicações sobre os principais co
 
 ---
 
-## Minhas contribuições
+## Contribuições pessoais
 
-Atuei como **Scrum Master** da equipe e também contribuí diretamente com o desenvolvimento da estrutura e das páginas da aplicação. Minha participação combinou atividades de organização do time com atividades técnicas de implementação.
+Atuei como **Scrum Master** da equipe e também participei do desenvolvimento da estrutura e das páginas da aplicação. No papel de Scrum Master, apoiei a organização das atividades durante as sprints, acompanhei o andamento das tarefas, ajudei a identificar impedimentos e contribuí para manter o time alinhado ao escopo do MVP. Também auxiliei na organização das cerimônias do Scrum, como planejamento, acompanhamento e revisão das entregas.
 
-### Contribuições como Scrum Master
-
-- Apoiei a organização das atividades do time durante as sprints.
-- Acompanhei o andamento das tarefas e ajudei a identificar possíveis impedimentos.
-- Estimulei a comunicação entre os integrantes para manter alinhamento sobre entregas e prioridades.
-- Auxiliei na organização das cerimônias do Scrum, como planejamento, acompanhamento e revisão das entregas.
-- Contribuí para manter o time focado no escopo do MVP e nos critérios definidos para o semestre.
-
-### Contribuições técnicas
-
-- Desenvolvi parte da estrutura das páginas do site.
-- Apoiei a criação de páginas informativas relacionadas aos conceitos de Metodologia Ágil.
-- Contribuí com a organização visual e navegação entre conteúdos.
-- Trabalhei com HTML, CSS, Bootstrap e integração com a aplicação em Flask.
-- Participei da construção de uma interface simples e objetiva, evitando excesso de informação e priorizando a compreensão do usuário.
-
-### Importância da minha atuação
-
-Por ter sido o primeiro API, esse projeto foi essencial para compreender como um produto de software é desenvolvido dentro do modelo da Fatec. Como eu já tinha base em programação, consegui assumir responsabilidades com autonomia desde o início, ajudando tanto na organização do time quanto na implementação das páginas.
-
-Minha atuação como Scrum Master também foi importante para desenvolver uma visão mais ampla de projeto. O desafio não estava apenas em escrever código, mas em manter o time alinhado, transformar requisitos em entregas e garantir que o site cumprisse seu objetivo de ensinar Metodologia Ágil de forma simples e funcional.
+Na parte técnica, desenvolvi parte da estrutura das páginas do site e apoiei a criação de páginas informativas relacionadas aos conceitos de Metodologia Ágil. Trabalhei com **HTML**, **CSS**, **Bootstrap** e integração com a aplicação em **Flask**, contribuindo para a navegação entre conteúdos e para a organização visual da interface. Os principais artefatos gerados foram páginas de conteúdo, ajustes de layout, organização de navegação e apoio à estrutura do fluxo de avaliação e feedback.
 
 ---
 
@@ -136,13 +121,13 @@ Minha atuação como Scrum Master também foi importante para desenvolver uma vi
 
 ## Soft skills
 
-| Soft skill | Situação em que foi exercitada |
+| Soft skill | Exemplo pontual no projeto |
 |---|---|
-| Comunicação | Como Scrum Master, precisei manter o time alinhado sobre atividades, prazos e entregas de cada sprint |
-| Organização | Acompanhei tarefas, prioridades e andamento do projeto para que a equipe mantivesse foco no MVP |
-| Protagonismo | Assumi a responsabilidade de apoiar a equipe na organização do projeto e também participei da implementação técnica |
-| Colaboração | Trabalhei com integrantes de diferentes níveis de conhecimento para que as entregas fossem concluídas de forma integrada |
-| Adaptabilidade | Por ser o primeiro API, precisei adaptar meu conhecimento prévio de programação ao modelo de trabalho por sprints da Fatec |
+| Comunicação | Durante a organização das páginas sobre Scrum, alinhei com o time quais conceitos deveriam aparecer em cada parte do site para evitar repetição de conteúdo e manter a navegação mais clara para o usuário |
+| Organização | Ao acompanhar as tarefas das sprints, ajudei a separar atividades de conteúdo, layout, avaliação e feedback, mantendo o escopo do MVP mais controlado durante o semestre |
+| Colaboração | Apoiei integrantes que estavam trabalhando em páginas relacionadas, garantindo que a estrutura visual e a linguagem do conteúdo permanecessem consistentes entre diferentes partes do site |
+| Adaptabilidade | No primeiro contato com o modelo de API da Fatec, adaptei meu conhecimento prévio de programação ao trabalho por sprints, com entregas incrementais e validações periódicas |
+| Responsabilidade | Como Scrum Master, acompanhei prazos e impedimentos para que as entregas combinadas fossem concluídas dentro do escopo definido para o projeto |
 
 ---
 
@@ -151,13 +136,6 @@ Minha atuação como Scrum Master também foi importante para desenvolver uma vi
 O principal aprendizado deste API foi compreender a dinâmica de um projeto desenvolvido com metodologia ágil. Antes do projeto, eu já tinha base técnica em programação, mas o semestre me mostrou a diferença entre saber programar individualmente e entregar um produto em equipe, com papéis definidos, planejamento e validação por etapas.
 
 Também aprendi a importância de construir interfaces simples e funcionais. Como o objetivo do projeto era ensinar Metodologia Ágil, a organização do conteúdo tinha impacto direto na experiência do usuário. Isso me mostrou que tecnologia não se resume a código, mas também envolve clareza, usabilidade e comunicação.
-
----
-
-## Links
-
-- [Repositório do projeto](https://github.com/m-germano/projetoAPI-horus)
-
 
 ---
 

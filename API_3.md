@@ -1,69 +1,65 @@
 # API 3 - AdaTrade
 
 <p align="center">
-  <strong>3º Semestre de ADS</strong><br>
+  <strong>3º Semestre - 2025-1</strong><br>
   Plataforma web de acompanhamento dos resultados de importação e exportação dos estados brasileiros<br>
-  Papel exercido: <strong>Product Owner, ETL, backend principal e integração frontend-backend</strong>
+  Papel exercido no Scrum: <strong>Product Owner</strong>
 </p>
 
 ---
 
 ## Atalhos
 
-- [Visão geral](#visão-geral)
-- [Cliente e parceiro acadêmico](#cliente-e-parceiro-acadêmico)
-- [Problema proposto](#problema-proposto)
-- [Solução desenvolvida](#solução-desenvolvida)
-- [Funcionalidades](#funcionalidades)
+- [Identificação do projeto](#identificação-do-projeto)
+- [Empresa parceira](#empresa-parceira)
+- [Problema](#problema)
+- [Solução](#solução)
+- [Link do repositório Git](#link-do-repositório-git)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [Minhas contribuições](#minhas-contribuições)
+- [Contribuições pessoais](#contribuições-pessoais)
 - [Hard skills](#hard-skills)
 - [Soft skills](#soft-skills)
 - [Aprendizados](#aprendizados)
-- [Links](#links)
 
 ---
 
-## Visão geral
-
-O terceiro API foi o projeto mais importante da minha trajetória até este momento no curso. O desafio consistia em desenvolver uma plataforma web para acompanhamento dos resultados de importação e exportação dos estados brasileiros, com base em dados abertos oficiais do Ministério do Desenvolvimento, Indústria, Comércio e Serviços.
-
-O projeto recebeu o nome de **AdaTrade** e foi pensado para apoiar economistas, gestores públicos, empresas e demais tomadores de decisão na análise do comércio exterior brasileiro. A proposta era transformar grandes volumes de dados históricos em informações claras, acessíveis e úteis para interpretação do desempenho dos estados e municípios no mercado internacional.
-
-Nesse semestre, atuei com forte protagonismo como **Product Owner**, responsável pelo relacionamento com o cliente e definição do produto, além de atuar como responsável pelo processo de **ETL dos dados**, desenvolvedor backend principal e ponto central de integração entre frontend e backend.
-
----
-
-## Cliente e parceiro acadêmico
+## Identificação do projeto
 
 | Item | Descrição |
 |---|---|
-| Cliente | Dom Rock |
-| Representante | Felipe Santos |
-| Parceiro acadêmico | Fatec São José dos Campos - Prof. Jessen Vidal |
-| Repositório | [equipeAdalove/API-SEMESTRE3](https://github.com/equipeAdalove/API-SEMESTRE3) |
+| Semestre do curso | 3º semestre |
+| Ano e semestre | 2025-1 |
+| Nome do projeto | AdaTrade |
+| Tipo de sistema | Plataforma web |
+| Papel no Scrum | Product Owner |
 | Equipe | AdaLove |
-| Produto | AdaTrade |
 
 ---
 
-## Problema proposto
+## Empresa parceira
 
-O comércio exterior brasileiro gera grande volume de dados públicos, mas a análise desses dados pode ser complexa para usuários que não têm domínio técnico em manipulação de bases, consultas e tratamento de informações. A empresa parceira propôs o desafio de criar uma plataforma web capaz de disponibilizar informações sobre importações e exportações dos estados brasileiros de forma acessível, organizada e visual.
-
-O problema central era permitir que os usuários identificassem estados e municípios em ascensão, estagnação ou declínio no mercado internacional. Para isso, a solução precisava tratar bases extensas, organizar os dados por recortes relevantes e apresentar indicadores de forma compreensível para apoiar tomada de decisão.
-
----
-
-## Solução desenvolvida
-
-A solução desenvolvida foi o **AdaTrade**, uma plataforma web voltada à análise do desempenho dos estados brasileiros no comércio exterior. O sistema organiza e estrutura dados de importação e exportação, permitindo consultas por estado, município, ano, tipo de operação, produto e outros recortes relevantes.
-
-O projeto foi construído com foco em transformar dados brutos em informação. Para isso, foi necessário criar um processo de ETL para extrair, limpar, padronizar e otimizar grandes volumes de dados históricos. Em seguida, esses dados foram disponibilizados por meio de uma API REST, consumida pelo frontend para apresentar visualizações e consultas de forma mais intuitiva.
+| Item | Descrição |
+|---|---|
+| Empresa parceira | Dom Rock |
+| Representante | Felipe Santos |
+| Área de atuação | Tecnologia, dados e inteligência artificial aplicada a negócios |
+| Parceiro acadêmico | Fatec São José dos Campos - Prof. Jessen Vidal |
 
 ---
 
-## Funcionalidades
+## Problema
+
+O comércio exterior brasileiro gera grande volume de dados públicos, mas a análise desses dados pode ser complexa para usuários que não têm domínio técnico em manipulação de bases, consultas e tratamento de informações. Mesmo com dados oficiais disponíveis, a leitura desses arquivos exige conhecimento técnico e tempo para limpeza, padronização e interpretação.
+
+A empresa parceira propôs o desafio de facilitar a análise de importações e exportações dos estados brasileiros. O problema central era permitir que usuários identificassem estados e municípios em ascensão, estagnação ou declínio no mercado internacional, sem depender de processos manuais de tratamento de dados ou consultas complexas em bases extensas.
+
+---
+
+## Solução
+
+A equipe desenvolveu o **AdaTrade**, uma **plataforma web** voltada à análise do desempenho dos estados brasileiros no comércio exterior. O sistema organizou dados de importação e exportação por estado, município, ano, tipo de operação, produto e outros recortes relevantes. Para isso, foi criado um processo de **ETL** para extrair, limpar, padronizar e otimizar grandes volumes de dados históricos, disponibilizando as informações por meio de uma **API REST** consumida pelo frontend.
+
+### Principais funcionalidades
 
 - Consulta de dados de importação e exportação por estado brasileiro.
 - Análise de desempenho de municípios no comércio exterior.
@@ -75,6 +71,12 @@ O projeto foi construído com foco em transformar dados brutos em informação. 
 - Processo de ETL para limpeza, padronização e otimização dos dados.
 - Estruturas otimizadas para melhorar desempenho das consultas.
 - Integração entre backend e frontend para consumo dos indicadores.
+
+---
+
+## Link do repositório Git
+
+- [Repositório do projeto](https://github.com/equipeAdalove/API-SEMESTRE3)
 
 ---
 
@@ -95,53 +97,20 @@ O projeto foi construído com foco em transformar dados brutos em informação. 
 | Tabelas pré-calculadas | Redução do custo de processamento em consultas pesadas |
 | Git e GitHub | Versionamento e colaboração |
 | Figma | Apoio à prototipação e alinhamento visual |
-| Jira | Acompanhamento das atividades e sprints em nível de uso básico/intermediário |
+| Jira | Acompanhamento das atividades e sprints em nível básico/intermediário |
 | Scrum | Organização do ciclo de desenvolvimento |
 
 ---
 
-## Minhas contribuições
+## Contribuições pessoais
 
-Este foi o API em que tive maior responsabilidade até então. Minha atuação combinou produto, dados, backend, integração e comunicação com o cliente.
+Atuei como **Product Owner** e também contribuí tecnicamente com **ETL**, backend e integração entre frontend e backend. Como Product Owner, fui ponte entre equipe e cliente para entendimento do problema, definição de escopo, construção e priorização do backlog, validação das funcionalidades e preparação das apresentações do projeto. Também traduzi necessidades de negócio em funcionalidades técnicas para o time de desenvolvimento.
 
-### Contribuições como Product Owner
+Na parte de dados, fui responsável pelo processo de **ETL** dos dados de comércio exterior, utilizando **Python** e **Pandas** para limpeza, padronização e organização de grandes volumes de dados históricos. Estruturei dados para permitir consultas por estado, município, NCM, período e tipo de operação, além de implementar estratégias de otimização, como **tabelas pré-calculadas** e **cache em memória**.
 
-- Atuei como ponte entre equipe e cliente para entendimento do problema, definição de escopo e validação das entregas.
-- Conduzi conversas com o cliente para compreender expectativas, prioridades e restrições do projeto.
-- Apoiei a construção e priorização do backlog do produto.
-- Traduzi necessidades de negócio em funcionalidades técnicas para o time de desenvolvimento.
-- Ajudei a organizar entregas por sprint, mantendo o MVP conectado ao problema real proposto.
-- Participei da validação das funcionalidades e da preparação das apresentações do projeto.
+No backend, atuei com **TypeScript**, **NestJS**, **SQL** e **PostgreSQL** para desenvolver a **API REST** responsável por disponibilizar os dados tratados ao frontend. Criei regras de negócio para consultas, filtros e recortes de dados, estruturei endpoints para visualização e comparação dos indicadores e realizei ajustes de desempenho para reduzir lentidão em consultas com grande volume de informação. Também alinhei contratos de dados com o frontend em **React**, garantindo que os componentes consumissem corretamente a API.
 
-### Contribuições em ETL e dados
-
-- Fui responsável pelo processo de ETL dos dados de comércio exterior.
-- Realizei limpeza, padronização e organização de grandes volumes de dados históricos.
-- Trabalhei com bases oficiais, tratando inconsistências e preparando os dados para uso na aplicação.
-- Estruturei dados de forma mais eficiente para permitir consultas por estado, município, NCM, período e tipo de operação.
-- Implementei estratégias de otimização, como tabelas pré-calculadas e cache em memória, para melhorar desempenho e escalabilidade.
-
-### Contribuições em backend
-
-- Atuei como desenvolvedor backend principal.
-- Desenvolvi a API REST responsável por disponibilizar os dados tratados para o frontend.
-- Criei regras de negócio para consultas, filtros e recortes de dados.
-- Estruturei endpoints para atender às necessidades de visualização e comparação da plataforma.
-- Trabalhei na integração entre backend e banco de dados.
-- Realizei ajustes de desempenho para evitar lentidão em consultas com grande volume de informação.
-
-### Contribuições na integração frontend-backend
-
-- Fui responsável por garantir a integração entre frontend e backend.
-- Alinhei contratos de dados com a equipe de frontend para que os componentes consumissem corretamente a API.
-- Apoiei a correção de inconsistências entre dados retornados e dados exibidos na interface.
-- Atuei na validação dos fluxos de consulta para garantir que a experiência final estivesse coerente com a proposta do produto.
-
-### Importância da minha atuação
-
-Minha atuação foi central para o sucesso do AdaTrade porque o projeto dependia diretamente da qualidade dos dados e da confiabilidade da API. Sem um processo sólido de ETL, os dados oficiais não poderiam ser usados de forma eficiente na plataforma. Sem uma API bem estruturada, o frontend não conseguiria apresentar as informações de maneira clara e performática.
-
-Além disso, o papel de Product Owner exigiu que eu conectasse a visão do cliente às decisões técnicas da equipe. Esse equilíbrio entre negócio, dados e desenvolvimento tornou o projeto uma experiência muito relevante para minha formação e foi um dos motivos pelos quais ele se tornou o API mais marcante da minha trajetória até o momento.
+Os principais artefatos gerados foram scripts de ETL, bases tratadas, estrutura de banco de dados, endpoints da API REST, regras de consulta, filtros, tabelas pré-calculadas, ajustes de cache, documentação de apoio ao time e backlog priorizado para as sprints.
 
 ---
 
@@ -162,21 +131,20 @@ Além disso, o papel de Product Owner exigiu que eu conectasse a visão do clien
 | Git e GitHub | Sei fazer com autonomia | Versionamento e colaboração no repositório |
 | Scrum e Product Owner | Sei fazer com autonomia | Gestão do backlog, comunicação com cliente e validação das entregas |
 | Figma | Sei fazer com autonomia | Apoio à prototipação e alinhamento visual |
-| Jira | Sei fazer com ajuda | Uso para acompanhamento das atividades, sem domínio avançado da ferramenta |
+| Jira | Faço com ajuda | Uso para acompanhamento das atividades, sem domínio avançado da ferramenta |
 
 ---
 
 ## Soft skills
 
-| Soft skill | Situação em que foi exercitada |
+| Soft skill | Exemplo pontual no projeto |
 |---|---|
-| Comunicação com cliente | Como Product Owner, conversei diretamente com o cliente para entender expectativas, prioridades e validações |
-| Visão de negócio | Precisei transformar dados públicos de comércio exterior em funcionalidades úteis para tomada de decisão |
-| Protagonismo | Assumi responsabilidades centrais em produto, ETL, backend e integração, sendo um dos principais pontos técnicos do projeto |
-| Organização | Foi necessário organizar backlog, dados, endpoints e entregas por sprint sem perder o foco no MVP |
-| Pensamento analítico | Trabalhei com grandes volumes de dados, identificando formas de limpeza, padronização e otimização |
-| Resolução de problemas | Enfrentei desafios de desempenho, inconsistência de dados e integração entre frontend e backend |
-| Liderança prática | Mesmo atuando também como desenvolvedor, precisei orientar decisões e manter alinhamento entre time e cliente |
+| Comunicação com cliente | Nas conversas com o representante da Dom Rock, alinhei expectativas sobre os recortes de análise de comércio exterior e transformei essas necessidades em itens de backlog para o time |
+| Visão de negócio | Ao estruturar consultas por estado, município, NCM e período, conectei os dados públicos disponíveis a funcionalidades úteis para apoiar análise de desempenho no comércio exterior |
+| Organização | Durante o desenvolvimento do ETL e da API, organizei bases, endpoints, filtros e prioridades de sprint para manter o MVP viável dentro do prazo do semestre |
+| Pensamento analítico | Ao lidar com grandes volumes de dados oficiais, precisei identificar inconsistências, definir padrões de limpeza e preparar estruturas mais eficientes para consulta |
+| Resolução de problemas | Quando consultas com grande volume de informação apresentaram risco de lentidão, implementei tabelas pré-calculadas e cache em memória para melhorar o desempenho da plataforma |
+| Colaboração | Durante a integração frontend-backend, alinhei contratos de dados com a equipe de frontend para corrigir divergências entre os dados retornados pela API e os dados exibidos na interface |
 
 ---
 
@@ -189,13 +157,6 @@ Aprendi que trabalhar com dados públicos exige muito cuidado. Antes de criar da
 Como Product Owner, desenvolvi minha capacidade de ouvir o cliente, traduzir necessidades em requisitos e equilibrar expectativas com viabilidade técnica. Como desenvolvedor backend e responsável pelo ETL, aprofundei meu conhecimento técnico e minha autonomia em decisões de arquitetura, dados e integração.
 
 Esse API também foi importante fora da sala de aula, pois o projeto AdaTrade foi apresentado no **PyDay SJC**, reforçando sua relevância técnica e meu envolvimento com a comunidade de tecnologia.
-
----
-
-## Links
-
-- [Repositório do projeto](https://github.com/equipeAdalove/API-SEMESTRE3)
-
 
 ---
 
