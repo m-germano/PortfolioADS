@@ -1,9 +1,15 @@
 # API 1 - Horus
 
 <p align="center">
-  <strong>1º Semestre - 2024-1</strong><br>
+  <strong>1º Semestre • 2024-1</strong><br>
   Sistema web informativo sobre Metodologia Ágil<br>
   Papel exercido no Scrum: <strong>Scrum Master</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Projeto%20Acad%C3%AAmico-Fatec%20SJC-blue?style=for-the-badge" alt="Projeto Acadêmico Fatec SJC">
+  <img src="https://img.shields.io/badge/Sistema-Web-informational?style=for-the-badge" alt="Sistema Web">
+  <img src="https://img.shields.io/badge/Papel-Scrum%20Master-orange?style=for-the-badge" alt="Scrum Master">
 </p>
 
 ---
@@ -15,6 +21,7 @@
 - [Problema](#problema)
 - [Solução](#solução)
 - [Link do repositório Git](#link-do-repositório-git)
+- [Preview da aplicação](#preview-da-aplicação)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [Contribuições pessoais](#contribuições-pessoais)
 - [Hard skills](#hard-skills)
@@ -41,7 +48,7 @@
 | Item | Descrição |
 |---|---|
 | Empresa parceira | Fatec São José dos Campos - Prof. Jessen Vidal |
-| Professor responsável pelos requisitos | Prof. Jessen Vidal |
+| Professor responsável pelos requisitos | Prof. Antonio Egydio |
 | Contexto | Projeto acadêmico desenvolvido no 1º semestre do curso de Análise e Desenvolvimento de Sistemas |
 
 ---
@@ -76,21 +83,41 @@ A equipe desenvolveu o **Horus**, um **sistema web** informativo sobre Metodolog
 
 ---
 
+## Preview da aplicação
+
+https://github.com/user-attachments/assets/823327df-775e-4a2e-a40f-c46fa5ddd712
+
+---
+
 ## Tecnologias utilizadas
 
-| Tecnologia | Aplicação no projeto |
-|---|---|
-| HTML | Estruturação das páginas do site |
-| CSS | Estilização visual das páginas |
-| JavaScript | Apoio à interatividade da interface |
-| Bootstrap | Padronização visual e responsividade |
-| Python | Linguagem utilizada no backend |
-| Flask | Framework web utilizado na aplicação |
-| Flask-SQLAlchemy | Apoio à persistência de dados |
-| Flask-Login | Controle de autenticação |
-| Flask-Bcrypt | Segurança no tratamento de senhas |
-| Git e GitHub | Versionamento, organização e publicação do repositório |
-| Scrum | Organização do trabalho em equipe durante as sprints |
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
+  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy">
+  <img src="https://img.shields.io/badge/Flask--Login-111111?style=for-the-badge&logo=flask&logoColor=white" alt="Flask-Login">
+  <img src="https://img.shields.io/badge/Bcrypt-2C2C2C?style=for-the-badge&logo=lock&logoColor=white" alt="Bcrypt">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/badge/Scrum-6DB33F?style=for-the-badge&logo=trello&logoColor=white" alt="Scrum">
+</p>
+
+<div align="center">
+
+| Área | Tecnologias | Aplicação no projeto |
+|---|---|---|
+| Frontend | HTML, CSS, JavaScript e Bootstrap | Estruturação das páginas, estilização visual, responsividade e apoio à interatividade da interface |
+| Backend | Python e Flask | Construção da aplicação web, organização das rotas e integração entre páginas, autenticação e dados |
+| Banco e persistência | Flask-SQLAlchemy | Apoio à modelagem, armazenamento e consulta dos dados utilizados pelo sistema |
+| Autenticação e segurança | Flask-Login e Flask-Bcrypt | Controle de login administrativo e tratamento seguro de senhas |
+| Versionamento | Git e GitHub | Organização do código, histórico de alterações e publicação do repositório |
+| Metodologia | Scrum | Planejamento das sprints, acompanhamento das entregas e organização do trabalho em equipe |
+
+</div>
 
 ---
 
