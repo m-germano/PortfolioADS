@@ -14,21 +14,29 @@
 
 ---
 
-## Atalhos
+<a id="atalhos"></a>
 
-- [Identificação do projeto](#identificação-do-projeto)
-- [Empresa parceira](#empresa-parceira)
-- [Problema](#problema)
-- [Solução](#solução)
-- [Link do repositório Git](#link-do-repositório-git)
-- [Preview da aplicação](#preview-da-aplicação)
-- [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [Contribuições pessoais](#contribuições-pessoais)
-- [Hard skills](#hard-skills)
-- [Soft skills](#soft-skills)
-- [Aprendizados](#aprendizados)
+<br>
+
+## 📌 Atalhos
+
+- [Identificação do projeto](#identificacao-do-projeto)
+- [🏢 Empresa parceira](#empresa-parceira)
+- [❗ Problema](#problema)
+- [✅ Solução](#solucao)
+- [🔗 Link do repositório Git](#link-do-repositorio-git)
+- [🖥️ Preview da aplicação](#preview-da-aplicacao)
+- [🛠️ Tecnologias utilizadas](#tecnologias-utilizadas)
+- [👨‍💻 Contribuições pessoais](#contribuicoes-pessoais)
+- [🧠 Hard skills](#hard-skills)
+- [🤝 Soft skills](#soft-skills)
+- [📚 Aprendizados](#aprendizados)
 
 ---
+
+<a id="identificacao-do-projeto"></a>
+
+<br>
 
 ## Identificação do projeto
 
@@ -43,7 +51,11 @@
 
 ---
 
-## Empresa parceira
+<a id="empresa-parceira"></a>
+
+<br>
+
+## 🏢 Empresa parceira
 
 | Item | Descrição |
 |---|---|
@@ -53,7 +65,11 @@
 
 ---
 
-## Problema
+<a id="problema"></a>
+
+<br>
+
+## ❗ Problema
 
 Muitas organizações lidam diariamente com grande volume de documentos. Mesmo quando esses documentos são digitalizados, a extração de informações relevantes pode continuar sendo uma atividade lenta, manual e sujeita a erros. Em documentos com layouts variados, apenas extrair texto não é suficiente, pois o significado das informações depende também do contexto visual e da estrutura do documento.
 
@@ -61,7 +77,11 @@ No contexto do projeto, o problema foi aplicado a relatórios clínicos. A neces
 
 ---
 
-## Solução
+<a id="solucao"></a>
+
+<br>
+
+## ✅ Solução
 
 A equipe desenvolveu o **MindDoc Analyzer**, uma **aplicação desktop** voltada ao cadastro, extração, consulta, edição e exclusão de informações provenientes de relatórios clínicos. O sistema permitia registrar relatórios, submeter documentos para análise por modelos de linguagem e visão, visualizar informações extraídas de forma organizada e realizar ajustes manuais quando necessário.
 
@@ -79,19 +99,31 @@ A equipe desenvolveu o **MindDoc Analyzer**, uma **aplicação desktop** voltada
 
 ---
 
-## Link do repositório Git
+<a id="link-do-repositorio-git"></a>
+
+<br>
+
+## 🔗 Link do repositório Git
 
 - [Repositório do projeto](https://github.com/equipeAdalove/API-SEMESTRE2)
 
 ---
 
-## Preview da aplicação
+<a id="preview-da-aplicacao"></a>
+
+<br>
+
+## 🖥️ Preview da aplicação
 
 https://github.com/user-attachments/assets/5ef23336-f4fe-4a3f-99b2-5dea512436ad
 
 ---
 
-## Tecnologias utilizadas
+<a id="tecnologias-utilizadas"></a>
+
+<br>
+
+## 🛠️ Tecnologias utilizadas
 
 <br>
 
@@ -139,7 +171,11 @@ https://github.com/user-attachments/assets/5ef23336-f4fe-4a3f-99b2-5dea512436ad
 
 ---
 
-## Contribuições pessoais
+<a id="contribuicoes-pessoais"></a>
+
+<br>
+
+## 👨‍💻 Contribuições pessoais
 
 Atuei como **desenvolvedor** no time, participando da estruturação da aplicação, criação de telas, implementação da lógica de negócio e construção de funcionalidades. Contribuí para o fluxo de cadastro, consulta, edição e visualização das informações dos relatórios, conectando interface, regras de negócio e persistência de dados.
 
@@ -147,7 +183,16 @@ Minhas principais contribuições técnicas envolveram o uso de **Java**, **prog
 
 ---
 
-## Hard skills
+<a id="hard-skills"></a>
+
+<br>
+
+## 🧠 Hard skills
+
+<details>
+  <summary><strong>Clique para visualizar as hard skills desenvolvidas no projeto</strong></summary>
+
+<br>
 
 | Hard skill | Nível de proficiência | Evidência no projeto |
 |---|---|---|
@@ -164,9 +209,20 @@ Minhas principais contribuições técnicas envolveram o uso de **Java**, **prog
 | Jira | Faço com ajuda | Uso para acompanhamento de tarefas, sem domínio avançado da ferramenta |
 | Git e GitHub | Sei fazer com autonomia | Versionamento e colaboração no repositório |
 
+</details>
+
 ---
 
-## Soft skills
+<a id="soft-skills"></a>
+
+<br>
+
+## 🤝 Soft skills
+
+<details>
+  <summary><strong>Clique para visualizar as soft skills desenvolvidas no projeto</strong></summary>
+
+<br>
 
 | Soft skill | Exemplo pontual no projeto |
 |---|---|
@@ -176,9 +232,15 @@ Minhas principais contribuições técnicas envolveram o uso de **Java**, **prog
 | Resolução de problemas | Durante as sprints, atuei em ajustes de telas e lógica de negócio quando o fluxo de cadastro e edição não refletia corretamente as informações dos relatórios |
 | Aprendizado contínuo | O projeto exigiu contato com extração automatizada de informações e modelos locais, o que me levou a estudar como integrar esse tipo de recurso ao fluxo da aplicação |
 
+</details>
+
 ---
 
-## Aprendizados
+<a id="aprendizados"></a>
+
+<br>
+
+## 📚 Aprendizados
 
 O segundo API ampliou minha compreensão sobre sistemas com regras de negócio e persistência de dados. Aprendi que uma aplicação precisa ser pensada de forma integrada: tela, regra, banco de dados, validação e experiência do usuário devem funcionar em conjunto.
 
