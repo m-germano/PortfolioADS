@@ -15,21 +15,29 @@
 
 ---
 
-## Atalhos
+<a id="atalhos"></a>
 
-- [Identificação do projeto](#identificação-do-projeto)
-- [Empresa parceira](#empresa-parceira)
-- [Problema](#problema)
-- [Solução](#solução)
-- [Link do repositório Git](#link-do-repositório-git)
-- [Preview da aplicação](#preview-da-aplicação)
-- [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [Contribuições pessoais](#contribuições-pessoais)
-- [Hard skills](#hard-skills)
-- [Soft skills](#soft-skills)
-- [Aprendizados](#aprendizados)
+<br>
+
+## 📌 Atalhos
+
+- [Identificação do projeto](#identificacao-do-projeto)
+- [🏢 Empresa parceira](#empresa-parceira)
+- [❗ Problema](#problema)
+- [✅ Solução](#solucao)
+- [🔗 Link do repositório Git](#link-do-repositorio-git)
+- [🖥️ Preview da aplicação](#preview-da-aplicacao)
+- [🛠️ Tecnologias utilizadas](#tecnologias-utilizadas)
+- [👨‍💻 Contribuições pessoais](#contribuicoes-pessoais)
+- [🧠 Hard skills](#hard-skills)
+- [🤝 Soft skills](#soft-skills)
+- [📚 Aprendizados](#aprendizados)
 
 ---
+
+<a id="identificacao-do-projeto"></a>
+
+<br>
 
 ## Identificação do projeto
 
@@ -44,7 +52,11 @@
 
 ---
 
-## Empresa parceira
+<a id="empresa-parceira"></a>
+
+<br>
+
+## 🏢 Empresa parceira
 
 | Item | Descrição |
 |---|---|
@@ -55,7 +67,11 @@
 
 ---
 
-## Problema
+<a id="problema"></a>
+
+<br>
+
+## ❗ Problema
 
 A elaboração da instrução de registro aduaneiro é um processo manual que exige atenção a dados como Part-Number, classificação fiscal, fabricante, origem e endereço do fabricante. Quando essas informações são tratadas manualmente, podem ocorrer erros de interpretação, descrições ambíguas, retrabalho e riscos de questionamentos, penalidades ou multas.
 
@@ -63,7 +79,11 @@ O desafio era apoiar a geração de descrições claras, precisas e compatíveis
 
 ---
 
-## Solução
+<a id="solucao"></a>
+
+<br>
+
+## ✅ Solução
 
 A equipe desenvolveu o **AdaTech**, uma **plataforma web** que utiliza inteligência artificial para apoiar a criação da instrução de registro aduaneiro. O sistema permite upload de PDFs de pedidos de compra, extração de Part-Numbers, sugestão de NCM e descrição dos itens, revisão manual das informações extraídas, geração de arquivo Excel com dados finais e consulta ao histórico de documentos processados.
 
@@ -83,19 +103,32 @@ A equipe desenvolveu o **AdaTech**, uma **plataforma web** que utiliza inteligê
 
 ---
 
-## Link do repositório Git
+<a id="link-do-repositorio-git"></a>
+
+<br>
+
+## 🔗 Link do repositório Git
 
 - [Repositório do projeto](https://github.com/equipeAdalove/API-SEMESTRE4)
 
 ---
 
-## Preview da aplicação
+<a id="preview-da-aplicacao"></a>
+
+<br>
+
+## 🖥️ Preview da aplicação
 
 https://github.com/user-attachments/assets/b4f9e0cd-0a5e-4060-8946-ffe45f44a007
 
 ---
 
-## Tecnologias utilizadas
+<a id="tecnologias-utilizadas"></a>
+
+<br>
+
+## 🛠️ Tecnologias utilizadas
+
 <br>
 
 <p align="center">
@@ -109,7 +142,10 @@ https://github.com/user-attachments/assets/b4f9e0cd-0a5e-4060-8946-ffe45f44a007
   &nbsp;
   <img src="https://cdn.simpleicons.org/duckduckgo/DE5833" width="48" height="48" alt="DuckDuckGo" title="DuckDuckGo"/>
   &nbsp;
-
+  <img src="https://cdn.simpleicons.org/adobeacrobatreader/EC1C24" width="48" height="48" alt="PDF" title="PDF"/>
+  &nbsp;
+  <img src="https://cdn.simpleicons.org/microsoftexcel/217346" width="48" height="48" alt="Excel" title="Excel"/>
+  &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="48" height="48" alt="TypeScript" title="TypeScript"/>
   &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="48" height="48" alt="React" title="React"/>
@@ -134,6 +170,7 @@ https://github.com/user-attachments/assets/b4f9e0cd-0a5e-4060-8946-ffe45f44a007
 </p>
 
 <br>
+
 <div align="center">
 
 | Área | Tecnologias | Aplicação no projeto |
@@ -153,7 +190,11 @@ https://github.com/user-attachments/assets/b4f9e0cd-0a5e-4060-8946-ffe45f44a007
 
 ---
 
-## Contribuições pessoais
+<a id="contribuicoes-pessoais"></a>
+
+<br>
+
+## 👨‍💻 Contribuições pessoais
 
 Atuei como **desenvolvedor** no time, com foco em backend, estrutura da aplicação, regras de negócio e recursos de inteligência artificial. Contribuí para a organização do fluxo de processamento entre upload, extração, sugestão, revisão e geração do arquivo final, além de apoiar a divisão entre responsabilidades do backend, frontend, banco de dados e agente de IA.
 
@@ -165,7 +206,16 @@ Os principais artefatos gerados foram endpoints da API, regras de processamento,
 
 ---
 
-## Hard skills
+<a id="hard-skills"></a>
+
+<br>
+
+## 🧠 Hard skills
+
+<details>
+  <summary><strong>Clique para visualizar as hard skills desenvolvidas no projeto</strong></summary>
+
+<br>
 
 | Hard skill | Nível de proficiência | Evidência no projeto |
 |---|---|---|
@@ -182,9 +232,20 @@ Os principais artefatos gerados foram endpoints da API, regras de processamento,
 | Figma | Sei fazer com autonomia | Apoio visual e entendimento de fluxos de interface |
 | Jira | Faço com ajuda | Uso para acompanhamento de tarefas, sem domínio avançado da ferramenta |
 
+</details>
+
 ---
 
-## Soft skills
+<a id="soft-skills"></a>
+
+<br>
+
+## 🤝 Soft skills
+
+<details>
+  <summary><strong>Clique para visualizar as soft skills desenvolvidas no projeto</strong></summary>
+
+<br>
 
 | Soft skill | Exemplo pontual no projeto |
 |---|---|
@@ -196,9 +257,15 @@ Os principais artefatos gerados foram endpoints da API, regras de processamento,
 | Comunicação | Durante a integração entre backend e frontend, expliquei regras e formatos de retorno para evitar divergências entre o processamento dos dados e a visualização na tela |
 | Adaptabilidade | O uso de RAG e Ollama exigiu ajustes conforme testes, inconsistências e necessidades do cliente, o que exigiu adaptação contínua durante as sprints |
 
+</details>
+
 ---
 
-## Aprendizados
+<a id="aprendizados"></a>
+
+<br>
+
+## 📚 Aprendizados
 
 O quarto API me ensinou que projetos com inteligência artificial exigem mais do que apenas conectar um modelo ao sistema. É necessário pensar em fluxo, validação, revisão, armazenamento, confiabilidade e clareza das informações geradas.
 
