@@ -1,9 +1,15 @@
 # API 2 - MindDoc Analyzer
 
 <p align="center">
-  <strong>2º Semestre - 2024-2</strong><br>
+  <strong>2º Semestre • 2024-2</strong><br>
   Aplicação para automatizar a extração de informações de documentos<br>
   Papel exercido no Scrum: <strong>Desenvolvedor</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Projeto%20Acad%C3%AAmico-Fatec%20SJC-blue?style=for-the-badge" alt="Projeto Acadêmico Fatec SJC">
+  <img src="https://img.shields.io/badge/Tipo-Aplica%C3%A7%C3%A3o%20Desktop-informational?style=for-the-badge" alt="Aplicação Desktop">
+  <img src="https://img.shields.io/badge/Papel-Desenvolvedor-orange?style=for-the-badge" alt="Desenvolvedor">
 </p>
 
 ---
@@ -15,6 +21,7 @@
 - [Problema](#problema)
 - [Solução](#solução)
 - [Link do repositório Git](#link-do-repositório-git)
+- [Preview da aplicação](#preview-da-aplicação)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [Contribuições pessoais](#contribuições-pessoais)
 - [Hard skills](#hard-skills)
@@ -41,7 +48,7 @@
 | Item | Descrição |
 |---|---|
 | Empresa parceira | Fatec São José dos Campos - Prof. Jessen Vidal |
-| Professor responsável pelos requisitos | Prof. Jessen Vidal |
+| Professor responsável pelos requisitos | Prof. Giuliano Bertoti |
 | Contexto | Projeto acadêmico desenvolvido no 2º semestre do curso de Análise e Desenvolvimento de Sistemas |
 
 ---
@@ -78,21 +85,44 @@ A equipe desenvolveu o **MindDoc Analyzer**, uma **aplicação desktop** voltada
 
 ---
 
+## Preview da aplicação
+
+https://github.com/user-attachments/assets/5ef23336-f4fe-4a3f-99b2-5dea512436ad
+
+---
+
 ## Tecnologias utilizadas
 
-| Tecnologia | Aplicação no projeto |
-|---|---|
-| Java | Desenvolvimento da aplicação e implementação de regras de negócio |
-| Programação orientada a objetos | Organização da lógica, entidades e responsabilidades do sistema |
-| CSS | Estilização da interface |
-| MySQL | Banco de dados relacional para armazenamento dos relatórios |
-| Maven | Gerenciamento de dependências do projeto |
-| JUnit | Apoio a testes |
-| Ollama | Uso local de modelos de linguagem |
-| Figma | Prototipação e apoio ao desenho das telas |
-| Trello | Organização visual das tarefas |
-| Jira | Acompanhamento de tarefas e sprints em nível básico/intermediário |
-| Git e GitHub | Versionamento e colaboração |
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/POO-1F2937?style=for-the-badge&logo=codeforces&logoColor=white" alt="Programação orientada a objetos">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" alt="Maven">
+  <img src="https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=junit5&logoColor=white" alt="JUnit">
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama">
+  <img src="https://img.shields.io/badge/Figma-A259FF?style=for-the-badge&logo=figma&logoColor=white" alt="Figma">
+  <img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white" alt="Trello">
+  <img src="https://img.shields.io/badge/Jira-0A66E4?style=for-the-badge&logo=jira&logoColor=white" alt="Jira">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</p>
+
+<div align="center">
+
+| Área | Tecnologias | Aplicação no projeto |
+|---|---|---|
+| Desenvolvimento da aplicação | Java e programação orientada a objetos | Implementação da aplicação desktop, regras de negócio, entidades e organização das responsabilidades do sistema |
+| Interface | CSS | Estilização das telas e ajustes visuais para melhorar a experiência de uso |
+| Banco de dados | MySQL | Armazenamento, consulta e manutenção dos relatórios clínicos cadastrados |
+| Dependências e estrutura | Maven | Gerenciamento de dependências e padronização da estrutura do projeto Java |
+| Testes | JUnit | Apoio à validação de funcionalidades e regras implementadas |
+| Inteligência artificial local | Ollama | Uso local de modelos de linguagem e visão para apoiar a extração automatizada de informações |
+| Design e prototipação | Figma | Apoio ao desenho das telas, organização visual e validação da experiência da interface |
+| Gestão do projeto | Trello e Jira | Organização das tarefas, acompanhamento das sprints e visualização do andamento das entregas |
+| Versionamento | Git e GitHub | Controle de versões, colaboração entre integrantes e organização do repositório |
+
+</div>
 
 ---
 
