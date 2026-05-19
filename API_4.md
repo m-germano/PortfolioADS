@@ -1,9 +1,16 @@
 # API 4 - AdaTech
 
 <p align="center">
-  <strong>4º Semestre - 2025-2</strong><br>
+  <strong>4º Semestre • 2025-2</strong><br>
   Agente de Inteligência Artificial para automação da instrução de registro aduaneiro<br>
   Papel exercido no Scrum: <strong>Desenvolvedor</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Projeto%20Acad%C3%AAmico-Fatec%20SJC-blue?style=for-the-badge" alt="Projeto Acadêmico Fatec SJC">
+  <img src="https://img.shields.io/badge/Tipo-Plataforma%20Web-informational?style=for-the-badge" alt="Plataforma Web">
+  <img src="https://img.shields.io/badge/Papel-Desenvolvedor-orange?style=for-the-badge" alt="Desenvolvedor">
+  <img src="https://img.shields.io/badge/Foco-IA%20e%20Processos%20Aduaneiros-success?style=for-the-badge" alt="IA e Processos Aduaneiros">
 </p>
 
 ---
@@ -15,6 +22,7 @@
 - [Problema](#problema)
 - [Solução](#solução)
 - [Link do repositório Git](#link-do-repositório-git)
+- [Preview da aplicação](#preview-da-aplicação)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [Contribuições pessoais](#contribuições-pessoais)
 - [Hard skills](#hard-skills)
@@ -81,25 +89,67 @@ A equipe desenvolveu o **AdaTech**, uma **plataforma web** que utiliza inteligê
 
 ---
 
-## Tecnologias utilizadas
+## Preview da aplicação
 
-| Tecnologia | Aplicação no projeto |
-|---|---|
-| Python | Desenvolvimento backend, regras de negócio e integração com IA |
-| FastAPI | Construção da API e endpoints do sistema |
-| PostgreSQL | Armazenamento de dados processados e histórico |
-| RAG | Recuperação de contexto para apoiar respostas mais relevantes da IA |
-| Ollama | Execução local de modelo de linguagem |
-| DuckDuckGo | Apoio a buscas e enriquecimento de informações |
-| TypeScript | Desenvolvimento frontend e integração |
-| React | Interface web da aplicação |
-| Vite | Ambiente de desenvolvimento frontend |
-| HTML e CSS | Estrutura e estilização das telas |
-| Node.js | Apoio ao ambiente frontend |
-| Figma | Prototipação e apoio visual |
-| Slack | Comunicação da equipe |
-| Jira | Gestão das tarefas e sprints em nível básico/intermediário |
-| Git e GitHub | Versionamento e colaboração |
+https://github.com/user-attachments/assets/b4f9e0cd-0a5e-4060-8946-ffe45f44a007
+
+---
+
+## Tecnologias utilizadas
+<br>
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="48" height="48" alt="Python" title="Python"/>
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" width="48" height="48" alt="FastAPI" title="FastAPI"/>
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="PostgreSQL" title="PostgreSQL"/>
+  &nbsp;
+  <img src="https://cdn.simpleicons.org/ollama/000000" width="48" height="48" alt="Ollama" title="Ollama"/>
+  &nbsp;
+  <img src="https://cdn.simpleicons.org/duckduckgo/DE5833" width="48" height="48" alt="DuckDuckGo" title="DuckDuckGo"/>
+  &nbsp;
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="48" height="48" alt="TypeScript" title="TypeScript"/>
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="48" height="48" alt="React" title="React"/>
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" width="48" height="48" alt="Vite" title="Vite"/>
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="48" height="48" alt="HTML5" title="HTML5"/>
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="48" height="48" alt="CSS3" title="CSS3"/>
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="48" height="48" alt="Node.js" title="Node.js"/>
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="48" height="48" alt="Figma" title="Figma"/>
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/slack/slack-original.svg" width="48" height="48" alt="Slack" title="Slack"/>
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" width="48" height="48" alt="Jira" title="Jira"/>
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="48" height="48" alt="Git" title="Git"/>
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="48" height="48" alt="GitHub" title="GitHub"/>
+</p>
+
+<br>
+<div align="center">
+
+| Área | Tecnologias | Aplicação no projeto |
+|---|---|---|
+| Backend | Python e FastAPI | Desenvolvimento da API, criação de endpoints, implementação de regras de negócio e integração com os demais módulos do sistema |
+| Banco de dados | PostgreSQL | Armazenamento dos dados processados, histórico de documentos e informações revisadas pelo usuário |
+| Inteligência artificial | RAG e Ollama | Recuperação de contexto e execução local de modelo de linguagem para apoiar a sugestão de NCM, descrições e informações aduaneiras |
+| Enriquecimento de informações | DuckDuckGo | Apoio a buscas e complementação de informações utilizadas no fluxo de análise |
+| Documentos e exportação | PDFs e Excel | Entrada dos pedidos de compra em PDF e geração de planilhas com os dados finais revisados |
+| Frontend | TypeScript, React, Vite, HTML e CSS | Desenvolvimento da interface web, consumo da API e exibição do fluxo de upload, revisão, histórico e exportação |
+| Ambiente frontend | Node.js | Apoio à execução e organização do ambiente de desenvolvimento da interface |
+| Design e prototipação | Figma | Apoio à prototipação, organização visual e entendimento dos fluxos da interface |
+| Comunicação e gestão | Slack e Jira | Comunicação da equipe, acompanhamento de tarefas, organização das sprints e alinhamento das entregas |
+| Versionamento | Git e GitHub | Controle de versões, colaboração entre integrantes e organização do repositório |
+
+</div>
 
 ---
 
