@@ -1,9 +1,16 @@
 # API 3 - AdaTrade
 
 <p align="center">
-  <strong>3º Semestre - 2025-1</strong><br>
+  <strong>3º Semestre • 2025-1</strong><br>
   Plataforma web de acompanhamento dos resultados de importação e exportação dos estados brasileiros<br>
   Papel exercido no Scrum: <strong>Product Owner</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Projeto%20Acad%C3%AAmico-Fatec%20SJC-blue?style=for-the-badge" alt="Projeto Acadêmico Fatec SJC">
+  <img src="https://img.shields.io/badge/Tipo-Plataforma%20Web-informational?style=for-the-badge" alt="Plataforma Web">
+  <img src="https://img.shields.io/badge/Papel-Product%20Owner-orange?style=for-the-badge" alt="Product Owner">
+  <img src="https://img.shields.io/badge/Foco-Dados%20e%20Com%C3%A9rcio%20Exterior-success?style=for-the-badge" alt="Dados e Comércio Exterior">
 </p>
 
 ---
@@ -15,6 +22,7 @@
 - [Problema](#problema)
 - [Solução](#solução)
 - [Link do repositório Git](#link-do-repositório-git)
+- [Preview da aplicação](#preview-da-aplicação)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [Contribuições pessoais](#contribuições-pessoais)
 - [Hard skills](#hard-skills)
@@ -40,10 +48,9 @@
 
 | Item | Descrição |
 |---|---|
-| Empresa parceira | Dom Rock |
-| Representante | Felipe Santos |
+| Empresa parceira | Fatec São José dos Campos - Prof. Jessen Vidal |
+| Representante | Prof. Marcus Nascimento |
 | Área de atuação | Tecnologia, dados e inteligência artificial aplicada a negócios |
-| Parceiro acadêmico | Fatec São José dos Campos - Prof. Jessen Vidal |
 
 ---
 
@@ -80,25 +87,49 @@ A equipe desenvolveu o **AdaTrade**, uma **plataforma web** voltada à análise 
 
 ---
 
+## Preview da aplicação
+
+https://github.com/user-attachments/assets/8f2286ae-6f95-4c98-94e9-a24ad9a0588f
+
+---
+
 ## Tecnologias utilizadas
 
-| Tecnologia | Aplicação no projeto |
-|---|---|
-| Python | ETL, limpeza, tratamento e otimização dos dados |
-| Pandas | Manipulação de grandes bases históricas |
-| TypeScript | Desenvolvimento da API e estrutura do backend |
-| NestJS | Construção da API REST |
-| SQL | Consulta, organização e análise dos dados |
-| PostgreSQL | Banco de dados relacional do projeto |
-| React | Desenvolvimento da interface web |
-| Vite | Ambiente de desenvolvimento frontend |
-| HTML e CSS | Estrutura e estilização da interface |
-| Cache em memória | Otimização de desempenho de consultas recorrentes |
-| Tabelas pré-calculadas | Redução do custo de processamento em consultas pesadas |
-| Git e GitHub | Versionamento e colaboração |
-| Figma | Apoio à prototipação e alinhamento visual |
-| Jira | Acompanhamento das atividades e sprints em nível básico/intermediário |
-| Scrum | Organização do ciclo de desenvolvimento |
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/ETL-0F172A?style=for-the-badge&logo=databricks&logoColor=white" alt="ETL">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS">
+  <img src="https://img.shields.io/badge/API%20REST-111827?style=for-the-badge&logo=fastapi&logoColor=white" alt="API REST">
+  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Cache-FF6F00?style=for-the-badge&logo=redis&logoColor=white" alt="Cache em memória">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/Figma-A259FF?style=for-the-badge&logo=figma&logoColor=white" alt="Figma">
+  <img src="https://img.shields.io/badge/Jira-0A66E4?style=for-the-badge&logo=jira&logoColor=white" alt="Jira">
+  <img src="https://img.shields.io/badge/Scrum-6DB33F?style=for-the-badge&logo=trello&logoColor=white" alt="Scrum">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</p>
+
+<div align="center">
+
+| Área | Tecnologias | Aplicação no projeto |
+|---|---|---|
+| Dados e ETL | Python e Pandas | Extração, limpeza, tratamento, padronização e otimização de grandes bases históricas de comércio exterior |
+| Backend | TypeScript e NestJS | Construção da API REST responsável por disponibilizar os dados tratados para o frontend |
+| Banco de dados | SQL e PostgreSQL | Organização, armazenamento, consulta e análise dos dados de importação e exportação |
+| Performance | Cache em memória e tabelas pré-calculadas | Redução do tempo de resposta em consultas recorrentes e consultas com grande volume de dados |
+| Frontend | React, Vite, HTML e CSS | Desenvolvimento da interface web, consumo da API e apresentação dos indicadores ao usuário |
+| Design e prototipação | Figma | Apoio à prototipação, alinhamento visual e organização da experiência da interface |
+| Gestão do projeto | Jira e Scrum | Acompanhamento das atividades, priorização do backlog, organização das sprints e validação das entregas |
+| Versionamento | Git e GitHub | Controle de versões, colaboração entre integrantes e organização do repositório |
+
+</div>
 
 ---
 
@@ -139,7 +170,7 @@ Os principais artefatos gerados foram scripts de ETL, bases tratadas, estrutura 
 
 | Soft skill | Exemplo pontual no projeto |
 |---|---|
-| Comunicação com cliente | Nas conversas com o representante da Dom Rock, alinhei expectativas sobre os recortes de análise de comércio exterior e transformei essas necessidades em itens de backlog para o time |
+| Comunicação com cliente | Nas conversas com o representante da empresa parceira, alinhei expectativas sobre os recortes de análise de comércio exterior e transformei essas necessidades em itens de backlog para o time |
 | Visão de negócio | Ao estruturar consultas por estado, município, NCM e período, conectei os dados públicos disponíveis a funcionalidades úteis para apoiar análise de desempenho no comércio exterior |
 | Organização | Durante o desenvolvimento do ETL e da API, organizei bases, endpoints, filtros e prioridades de sprint para manter o MVP viável dentro do prazo do semestre |
 | Pensamento analítico | Ao lidar com grandes volumes de dados oficiais, precisei identificar inconsistências, definir padrões de limpeza e preparar estruturas mais eficientes para consulta |
