@@ -15,21 +15,29 @@
 
 ---
 
-## Atalhos
+<a id="atalhos"></a>
 
-- [Identificação do projeto](#identificação-do-projeto)
-- [Empresa parceira](#empresa-parceira)
-- [Problema](#problema)
-- [Solução](#solução)
-- [Link do repositório Git](#link-do-repositório-git)
-- [Preview da aplicação](#preview-da-aplicação)
-- [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [Contribuições pessoais](#contribuições-pessoais)
-- [Hard skills](#hard-skills)
-- [Soft skills](#soft-skills)
-- [Aprendizados](#aprendizados)
+<br>
+
+## 📌 Atalhos
+
+- [Identificação do projeto](#identificacao-do-projeto)
+- [🏢 Empresa parceira](#empresa-parceira)
+- [❗ Problema](#problema)
+- [✅ Solução](#solucao)
+- [🔗 Link do repositório Git](#link-do-repositorio-git)
+- [🖥️ Preview da aplicação](#preview-da-aplicacao)
+- [🛠️ Tecnologias utilizadas](#tecnologias-utilizadas)
+- [👨‍💻 Contribuições pessoais](#contribuicoes-pessoais)
+- [🧠 Hard skills](#hard-skills)
+- [🤝 Soft skills](#soft-skills)
+- [📚 Aprendizados](#aprendizados)
 
 ---
+
+<a id="identificacao-do-projeto"></a>
+
+<br>
 
 ## Identificação do projeto
 
@@ -44,7 +52,11 @@
 
 ---
 
-## Empresa parceira
+<a id="empresa-parceira"></a>
+
+<br>
+
+## 🏢 Empresa parceira
 
 | Item | Descrição |
 |---|---|
@@ -54,7 +66,11 @@
 
 ---
 
-## Problema
+<a id="problema"></a>
+
+<br>
+
+## ❗ Problema
 
 O comércio exterior brasileiro gera grande volume de dados públicos, mas a análise desses dados pode ser complexa para usuários que não têm domínio técnico em manipulação de bases, consultas e tratamento de informações. Mesmo com dados oficiais disponíveis, a leitura desses arquivos exige conhecimento técnico e tempo para limpeza, padronização e interpretação.
 
@@ -62,7 +78,11 @@ A empresa parceira propôs o desafio de facilitar a análise de importações e 
 
 ---
 
-## Solução
+<a id="solucao"></a>
+
+<br>
+
+## ✅ Solução
 
 A equipe desenvolveu o **AdaTrade**, uma **plataforma web** voltada à análise do desempenho dos estados brasileiros no comércio exterior. O sistema organizou dados de importação e exportação por estado, município, ano, tipo de operação, produto e outros recortes relevantes. Para isso, foi criado um processo de **ETL** para extrair, limpar, padronizar e otimizar grandes volumes de dados históricos, disponibilizando as informações por meio de uma **API REST** consumida pelo frontend.
 
@@ -81,19 +101,31 @@ A equipe desenvolveu o **AdaTrade**, uma **plataforma web** voltada à análise 
 
 ---
 
-## Link do repositório Git
+<a id="link-do-repositorio-git"></a>
+
+<br>
+
+## 🔗 Link do repositório Git
 
 - [Repositório do projeto](https://github.com/equipeAdalove/API-SEMESTRE3)
 
 ---
 
-## Preview da aplicação
+<a id="preview-da-aplicacao"></a>
+
+<br>
+
+## 🖥️ Preview da aplicação
 
 https://github.com/user-attachments/assets/8f2286ae-6f95-4c98-94e9-a24ad9a0588f
 
 ---
 
-## Tecnologias utilizadas
+<a id="tecnologias-utilizadas"></a>
+
+<br>
+
+## 🛠️ Tecnologias utilizadas
 
 <br>
 
@@ -124,6 +156,8 @@ https://github.com/user-attachments/assets/8f2286ae-6f95-4c98-94e9-a24ad9a0588f
   &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" width="48" height="48" alt="Jira" title="Jira"/>
   &nbsp;
+  <img src="https://cdn.simpleicons.org/scrumalliance/009FDA" width="48" height="48" alt="Scrum" title="Scrum"/>
+  &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="48" height="48" alt="Git" title="Git"/>
   &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="48" height="48" alt="GitHub" title="GitHub"/>
@@ -148,7 +182,11 @@ https://github.com/user-attachments/assets/8f2286ae-6f95-4c98-94e9-a24ad9a0588f
 
 ---
 
-## Contribuições pessoais
+<a id="contribuicoes-pessoais"></a>
+
+<br>
+
+## 👨‍💻 Contribuições pessoais
 
 Atuei como **Product Owner** e também contribuí tecnicamente com **ETL**, backend e integração entre frontend e backend. Como Product Owner, fui ponte entre equipe e cliente para entendimento do problema, definição de escopo, construção e priorização do backlog, validação das funcionalidades e preparação das apresentações do projeto. Também traduzi necessidades de negócio em funcionalidades técnicas para o time de desenvolvimento.
 
@@ -160,7 +198,16 @@ Os principais artefatos gerados foram scripts de ETL, bases tratadas, estrutura 
 
 ---
 
-## Hard skills
+<a id="hard-skills"></a>
+
+<br>
+
+## 🧠 Hard skills
+
+<details>
+  <summary><strong>Clique para visualizar as hard skills desenvolvidas no projeto</strong></summary>
+
+<br>
 
 | Hard skill | Nível de proficiência | Evidência no projeto |
 |---|---|---|
@@ -179,9 +226,20 @@ Os principais artefatos gerados foram scripts de ETL, bases tratadas, estrutura 
 | Figma | Sei fazer com autonomia | Apoio à prototipação e alinhamento visual |
 | Jira | Faço com ajuda | Uso para acompanhamento das atividades, sem domínio avançado da ferramenta |
 
+</details>
+
 ---
 
-## Soft skills
+<a id="soft-skills"></a>
+
+<br>
+
+## 🤝 Soft skills
+
+<details>
+  <summary><strong>Clique para visualizar as soft skills desenvolvidas no projeto</strong></summary>
+
+<br>
 
 | Soft skill | Exemplo pontual no projeto |
 |---|---|
@@ -192,9 +250,15 @@ Os principais artefatos gerados foram scripts de ETL, bases tratadas, estrutura 
 | Resolução de problemas | Quando consultas com grande volume de informação apresentaram risco de lentidão, implementei tabelas pré-calculadas e cache em memória para melhorar o desempenho da plataforma |
 | Colaboração | Durante a integração frontend-backend, alinhei contratos de dados com a equipe de frontend para corrigir divergências entre os dados retornados pela API e os dados exibidos na interface |
 
+</details>
+
 ---
 
-## Aprendizados
+<a id="aprendizados"></a>
+
+<br>
+
+## 📚 Aprendizados
 
 O AdaTrade foi o projeto que mais consolidou minha identidade profissional dentro do curso. Nele, percebi com clareza como dados, backend, produto e comunicação com cliente se conectam em uma solução real.
 
