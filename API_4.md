@@ -142,10 +142,6 @@ https://github.com/user-attachments/assets/b4f9e0cd-0a5e-4060-8946-ffe45f44a007
   &nbsp;
   <img src="https://cdn.simpleicons.org/duckduckgo/DE5833" width="48" height="48" alt="DuckDuckGo" title="DuckDuckGo"/>
   &nbsp;
-  <img src="https://cdn.simpleicons.org/adobeacrobatreader/EC1C24" width="48" height="48" alt="PDF" title="PDF"/>
-  &nbsp;
-  <img src="https://cdn.simpleicons.org/microsoftexcel/217346" width="48" height="48" alt="Excel" title="Excel"/>
-  &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="48" height="48" alt="TypeScript" title="TypeScript"/>
   &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="48" height="48" alt="React" title="React"/>
