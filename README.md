@@ -89,7 +89,7 @@ Este portfólio apresenta os quatro primeiros projetos de **Aprendizagem por Pro
 |---|---|---|---|---|
 | [1º Semestre - 2024-1](./API_1.md) | Fatec São José dos Campos - Prof. Jessen Vidal | Sistema web informativo sobre Metodologia Ágil, com conteúdos, avaliações, feedbacks e área administrativa | Scrum Master | [API_1.md](./API_1.md) |
 | [2º Semestre - 2024-2](./API_2.md) | Fatec São José dos Campos - Prof. Jessen Vidal | Aplicação desktop para cadastro, extração, consulta, edição e manutenção de informações de relatórios clínicos | Desenvolvedor | [API_2.md](./API_2.md) |
-| [3º Semestre - 2025-1](./API_3.md) | Dom Rock | Plataforma web para análise de importação e exportação dos estados brasileiros com dados tratados por ETL e disponibilizados via API REST | Product Owner | [API_3.md](./API_3.md) |
+| [3º Semestre - 2025-1](./API_3.md) | Fatec São José dos Campos - Prof. Jessen Vidal | Plataforma web para análise de importação e exportação dos estados brasileiros com dados tratados por ETL e disponibilizados via API REST | Product Owner | [API_3.md](./API_3.md) |
 | [4º Semestre - 2025-2](./API_4.md) | TecSys Brasil | Plataforma web com agente de IA para apoiar a instrução de registro aduaneiro, com RAG, Ollama, revisão humana e geração de Excel | Desenvolvedor | [API_4.md](./API_4.md) |
 
 ---
