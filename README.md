@@ -16,17 +16,24 @@
 
 ---
 
-## Sumário
+<a id="sumario"></a>
 
-- [Apresentação do aluno](#apresentação-do-aluno)
-- [Projetos API](#projetos-api)
-- [Estrutura do repositório](#estrutura-do-repositório)
-- [Evolução durante o curso](#evolução-durante-o-curso)
+<br>
+
+## 📌 Sumário
+
+- [👤 Apresentação do aluno](#apresentacao-do-aluno)
+- [🚀 Projetos API](#projetos-api)
+- [🗂️ Estrutura do repositório](#estrutura-do-repositorio)
+- [📈 Evolução durante o curso](#evolucao-durante-o-curso)
 
 ---
 
-## Apresentação do aluno
+<a id="apresentacao-do-aluno"></a>
 
+<br>
+
+## 👤 Apresentação do aluno
 
 <div align="center">
 
@@ -36,7 +43,7 @@
 
 ### Informações pessoais básicas
 
-Meu nome é **Matheus Germano**, tenho **23 anos** e sou de **São José dos Campos - SP**. 
+Meu nome é **Matheus Germano**, tenho **23 anos** e sou de **São José dos Campos - SP**.
 
 Atualmente curso o **5º semestre do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas** na **Fatec São José dos Campos - Prof. Jessen Vidal**.
 
@@ -69,6 +76,11 @@ Minha trajetória profissional e acadêmica me ajudou a construir um perfil anal
 
 ### Principais conhecimentos
 
+<details>
+  <summary><strong>Clique para visualizar os principais conhecimentos técnicos e metodológicos</strong></summary>
+
+<br>
+
 | Área | Conhecimentos desenvolvidos |
 |---|---|
 | Backend | Python, FastAPI, Java, C#, ASP.NET, TypeScript, NestJS, criação de APIs REST e implementação de regras de negócio |
@@ -79,9 +91,15 @@ Minha trajetória profissional e acadêmica me ajudou a construir um perfil anal
 | Gestão e métodos ágeis | Scrum, Product Owner, Scrum Master, backlog, sprint planning, sprint review, refinamento e validação com cliente |
 | Ferramentas | Git, GitHub, Trello, Figma, VS Code, IntelliJ, Google Colab e Jira em nível básico/intermediário |
 
+</details>
+
 ---
 
-## Projetos API
+<a id="projetos-api"></a>
+
+<br>
+
+## 🚀 Projetos API
 
 Este portfólio apresenta os quatro primeiros projetos de **Aprendizagem por Projetos Integrados (API)** desenvolvidos durante o curso. Como ainda estou no 5º semestre, os APIs do 5º e 6º semestres serão documentados posteriormente.
 
@@ -94,7 +112,11 @@ Este portfólio apresenta os quatro primeiros projetos de **Aprendizagem por Pro
 
 ---
 
-## Estrutura do repositório
+<a id="estrutura-do-repositorio"></a>
+
+<br>
+
+## 🗂️ Estrutura do repositório
 
 ```text
 PortfolioADS/
@@ -110,7 +132,11 @@ Cada API foi documentado em um arquivo separado para facilitar a leitura, a nave
 
 ---
 
-## Evolução durante o curso
+<a id="evolucao-durante-o-curso"></a>
+
+<br>
+
+## 📈 Evolução durante o curso
 
 Ao longo dos quatro primeiros APIs, minha evolução ocorreu de forma progressiva. No primeiro semestre, além de desenvolver páginas para o projeto Horus, assumi o papel de Scrum Master, organizando o time e ajudando a transformar o conteúdo sobre metodologia ágil em uma aplicação web funcional.
 
@@ -126,9 +152,11 @@ Essa sequência mostra uma evolução clara: comecei organizando equipe e constr
 
 <div align="center">
 
+<br>
+
 ## 🧭 Navegação do portfólio
 
-| Página inicial | 1º Semestre | 2º Semestre | 3º Semestre | 4º Semestre |
+| 🏠 Página inicial | 1º Semestre | 2º Semestre | 3º Semestre | 4º Semestre |
 |---|---|---|---|---|
 | [README](./README.md) | [API 1 • Horus](./API_1.md) | [API 2 • MindDoc Analyzer](./API_2.md) | [API 3 • AdaTrade](./API_3.md) | [API 4 • AdaTech](./API_4.md) |
 
