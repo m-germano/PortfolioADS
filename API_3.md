@@ -156,8 +156,6 @@ https://github.com/user-attachments/assets/8f2286ae-6f95-4c98-94e9-a24ad9a0588f
   &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" width="48" height="48" alt="Jira" title="Jira"/>
   &nbsp;
-  <img src="https://cdn.simpleicons.org/scrumalliance/009FDA" width="48" height="48" alt="Scrum" title="Scrum"/>
-  &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="48" height="48" alt="Git" title="Git"/>
   &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="48" height="48" alt="GitHub" title="GitHub"/>
