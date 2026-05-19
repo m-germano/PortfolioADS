@@ -14,21 +14,29 @@
 
 ---
 
-## Atalhos
+<a id="atalhos"></a>
+
+<br>
+
+## 📌 Atalhos
 
 - [Identificação do projeto](#identificação-do-projeto)
-- [Empresa parceira](#empresa-parceira)
-- [Problema](#problema)
-- [Solução](#solução)
-- [Link do repositório Git](#link-do-repositório-git)
-- [Preview da aplicação](#preview-da-aplicação)
-- [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [Contribuições pessoais](#contribuições-pessoais)
-- [Hard skills](#hard-skills)
-- [Soft skills](#soft-skills)
-- [Aprendizados](#aprendizados)
+- [🏢 Empresa parceira](#empresa-parceira)
+- [❗ Problema](#problema)
+- [✅ Solução](#solução)
+- [🔗 Link do repositório Git](#link-do-repositório-git)
+- [🖥️ Preview da aplicação](#preview-da-aplicação)
+- [🛠️ Tecnologias utilizadas](#tecnologias-utilizadas)
+- [👨‍💻 Contribuições pessoais](#contribuições-pessoais)
+- [🧠 Hard skills](#hard-skills)
+- [🤝 Soft skills](#soft-skills)
+- [📚 Aprendizados](#aprendizados)
 
 ---
+
+<a id="identificação-do-projeto"></a>
+
+<br>
 
 ## Identificação do projeto
 
@@ -43,7 +51,11 @@
 
 ---
 
-## Empresa parceira
+<a id="empresa-parceira"></a>
+
+<br>
+
+## 🏢 Empresa parceira
 
 | Item | Descrição |
 |---|---|
@@ -53,7 +65,11 @@
 
 ---
 
-## Problema
+<a id="problema"></a>
+
+<br>
+
+## ❗ Problema
 
 Estudantes e pessoas interessadas em Metodologia Ágil muitas vezes encontram conteúdos sobre Scrum de forma dispersa, pouco organizada ou excessivamente teórica. Essa dificuldade prejudica a compreensão de conceitos importantes, como Product Backlog, Sprint, Daily, DoR, DoD, MVP, Kanban e Planning Poker, principalmente para usuários iniciantes.
 
@@ -61,7 +77,11 @@ Além disso, quando o aprendizado ocorre apenas por leitura, o usuário pode nã
 
 ---
 
-## Solução
+<a id="solução"></a>
+
+<br>
+
+## ✅ Solução
 
 A equipe desenvolveu o **Horus**, um **sistema web** informativo sobre Metodologia Ágil. A solução reuniu páginas de conteúdo, avaliações de conhecimento, formulário de feedback, login administrativo e visualização de histórico de avaliações. O sistema foi construído com foco em navegação simples, organização visual e apresentação clara dos principais conceitos de Scrum e práticas ágeis.
 
@@ -77,19 +97,31 @@ A equipe desenvolveu o **Horus**, um **sistema web** informativo sobre Metodolog
 
 ---
 
-## Link do repositório Git
+<a id="link-do-repositório-git"></a>
+
+<br>
+
+## 🔗 Link do repositório Git
 
 - [Repositório do projeto](https://github.com/m-germano/projetoAPI-horus)
 
 ---
 
-## Preview da aplicação
+<a id="preview-da-aplicação"></a>
+
+<br>
+
+## 🖥️ Preview da aplicação
 
 https://github.com/user-attachments/assets/823327df-775e-4a2e-a40f-c46fa5ddd712
 
 ---
 
-## Tecnologias utilizadas
+<a id="tecnologias-utilizadas"></a>
+
+<br>
+
+## 🛠️ Tecnologias utilizadas
 
 <br>
 
@@ -136,7 +168,11 @@ https://github.com/user-attachments/assets/823327df-775e-4a2e-a40f-c46fa5ddd712
 
 ---
 
-## Contribuições pessoais
+<a id="contribuições-pessoais"></a>
+
+<br>
+
+## 👨‍💻 Contribuições pessoais
 
 Atuei como **Scrum Master** da equipe e também participei do desenvolvimento da estrutura e das páginas da aplicação. No papel de Scrum Master, apoiei a organização das atividades durante as sprints, acompanhei o andamento das tarefas, ajudei a identificar impedimentos e contribuí para manter o time alinhado ao escopo do MVP. Também auxiliei na organização das cerimônias do Scrum, como planejamento, acompanhamento e revisão das entregas.
 
@@ -144,7 +180,16 @@ Na parte técnica, desenvolvi parte da estrutura das páginas do site e apoiei a
 
 ---
 
-## Hard skills
+<a id="hard-skills"></a>
+
+<br>
+
+## 🧠 Hard skills
+
+<details>
+  <summary><strong>Clique para visualizar as hard skills desenvolvidas no projeto</strong></summary>
+
+<br>
 
 | Hard skill | Nível de proficiência | Evidência no projeto |
 |---|---|---|
@@ -159,9 +204,20 @@ Na parte técnica, desenvolvi parte da estrutura das páginas do site e apoiei a
 | Git e GitHub | Sei fazer com autonomia | Versionamento e organização do repositório |
 | Scrum Master | Sei fazer com autonomia | Organização das sprints, acompanhamento do time e apoio à comunicação |
 
+</details>
+
 ---
 
-## Soft skills
+<a id="soft-skills"></a>
+
+<br>
+
+## 🤝 Soft skills
+
+<details>
+  <summary><strong>Clique para visualizar as soft skills desenvolvidas no projeto</strong></summary>
+
+<br>
 
 | Soft skill | Exemplo pontual no projeto |
 |---|---|
@@ -171,9 +227,15 @@ Na parte técnica, desenvolvi parte da estrutura das páginas do site e apoiei a
 | Adaptabilidade | No primeiro contato com o modelo de API da Fatec, adaptei meu conhecimento prévio de programação ao trabalho por sprints, com entregas incrementais e validações periódicas |
 | Responsabilidade | Como Scrum Master, acompanhei prazos e impedimentos para que as entregas combinadas fossem concluídas dentro do escopo definido para o projeto |
 
+</details>
+
 ---
 
-## Aprendizados
+<a id="aprendizados"></a>
+
+<br>
+
+## 📚 Aprendizados
 
 O principal aprendizado deste API foi compreender a dinâmica de um projeto desenvolvido com metodologia ágil. Antes do projeto, eu já tinha base técnica em programação, mas o semestre me mostrou a diferença entre saber programar individualmente e entregar um produto em equipe, com papéis definidos, planejamento e validação por etapas.
 
