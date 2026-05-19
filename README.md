@@ -27,7 +27,6 @@
 
 ## Apresentação do aluno
 
-### Foto
 
 <div align="center">
 
@@ -37,9 +36,7 @@
 
 ### Informações pessoais básicas
 
-Meu nome é **Matheus Germano**, tenho **23 anos** e sou de **São José dos Campos - SP**.
-
-### Curso
+Meu nome é **Matheus Germano**, tenho **23 anos** e sou de **São José dos Campos - SP**. 
 
 Atualmente curso o **5º semestre do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas** na **Fatec São José dos Campos - Prof. Jessen Vidal**.
 
@@ -65,7 +62,7 @@ Minha trajetória profissional e acadêmica me ajudou a construir um perfil anal
 
 ### Informações de contato
 
-- E-mail: [adicione seu e-mail](mailto:seu-email@exemplo.com)
+- E-mail: [silvaa.matheus112@gmail.com](mailto:silvaa.matheus112@gmail.com)
 - GitHub: [github.com/m-germano](https://github.com/m-germano)
 - LinkedIn: [linkedin.com/in/math-germano](https://www.linkedin.com/in/math-germano/)
 - Localização: São José dos Campos - SP
