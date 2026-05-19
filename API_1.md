@@ -91,20 +91,35 @@ https://github.com/user-attachments/assets/823327df-775e-4a2e-a40f-c46fa5ddd712
 
 ## Tecnologias utilizadas
 
+<br>
+
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
-  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy">
-  <img src="https://img.shields.io/badge/Flask--Login-111111?style=for-the-badge&logo=flask&logoColor=white" alt="Flask-Login">
-  <img src="https://img.shields.io/badge/Bcrypt-2C2C2C?style=for-the-badge&logo=lock&logoColor=white" alt="Bcrypt">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  <img src="https://img.shields.io/badge/Scrum-6DB33F?style=for-the-badge&logo=trello&logoColor=white" alt="Scrum">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="48" height="48" alt="HTML5" title="HTML5"/>
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="48" height="48" alt="CSS3" title="CSS3"/>
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript" title="JavaScript"/>
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" width="48" height="48" alt="Bootstrap" title="Bootstrap"/>
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="48" height="48" alt="Python" title="Python"/>
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" width="48" height="48" alt="Flask" title="Flask"/>
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlalchemy/sqlalchemy-original.svg" width="48" height="48" alt="SQLAlchemy" title="SQLAlchemy"/>
+  &nbsp;
+  <img src="https://cdn.simpleicons.org/auth0/EB5424" width="48" height="48" alt="Autenticação" title="Flask-Login"/>
+  &nbsp;
+  <img src="https://cdn.simpleicons.org/letsencrypt/003A70" width="48" height="48" alt="Segurança" title="Flask-Bcrypt"/>
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="48" height="48" alt="Git" title="Git"/>
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="48" height="48" alt="GitHub" title="GitHub"/>
+  &nbsp;
+  <img src="https://cdn.simpleicons.org/scrumalliance/009FDA" width="48" height="48" alt="Scrum" title="Scrum"/>
 </p>
+
+<br>
 
 <div align="center">
 
