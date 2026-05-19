@@ -45,6 +45,8 @@
 
 Meu nome é **Matheus Germano**, tenho **23 anos** e sou de **São José dos Campos - SP**.
 
+
+### Curso
 Atualmente curso o **5º semestre do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas** na **Fatec São José dos Campos - Prof. Jessen Vidal**.
 
 ### Histórico acadêmico
