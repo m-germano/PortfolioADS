@@ -3,17 +3,15 @@
 <p align="center">
   <strong>5º Semestre • 2026-1</strong><br>
   Sistema estruturado para atendimento, triagem e escalonamento de demandas<br>
-  Papel exercido no Scrum: <strong>Desenvolvedor (Dev Team)</strong>
+  Papel exercido no Scrum: <strong>Desenvolvedor</strong>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Projeto%20Acad%C3%AAmico-Fatec%20SJC-blue?style=for-the-badge" alt="Projeto Acadêmico Fatec SJC">
   <img src="https://img.shields.io/badge/Tipo-Mobile%20e%20Web-informational?style=for-the-badge" alt="Aplicações mobile e web">
   <img src="https://img.shields.io/badge/Papel-Desenvolvedor-orange?style=for-the-badge" alt="Desenvolvedor">
-  <img src="https://img.shields.io/badge/Foco-Atendimento%20e%20Integra%C3%A7%C3%A3o-success?style=for-the-badge" alt="Atendimento e integração">
+  <img src="https://img.shields.io/badge/Status-Conclu%C3%ADdo-success?style=for-the-badge" alt="Projeto concluído">
 </p>
-
-> **Documentação para o TG II:** o contexto, as funcionalidades e as tecnologias abaixo se baseiam no README do SyncDesk fornecido para esta atualização. O papel de desenvolvedor está registrado na composição da equipe. As entregas individuais, a autoavaliação e os aprendizados pessoais estão sinalizados para preenchimento pelo aluno.
 
 ---
 
@@ -49,11 +47,12 @@
 | Semestre do curso | 5º semestre |
 | Ano e semestre | 2026-1 |
 | Nome do projeto | SyncDesk |
-| Tipo de sistema | Aplicação mobile para solicitantes, aplicação web para atendentes e administradores e backend compartilhado |
-| Papel no Scrum | Desenvolvedor (Dev Team), conforme a lista de integrantes do projeto |
+| Tipo de sistema | Plataforma de atendimento com aplicações mobile e web |
+| Papel no Scrum | Desenvolvedor |
+| Atuação técnica | Fullstack: backend, frontend web, aplicativo mobile e integração entre os componentes |
 | Equipe | Titus System |
-| Método de trabalho | Scrum, com sprints de 21 dias, reuniões diárias, revisões e retrospectivas |
-| Situação documentada | Três sprints e todos os itens do backlog registrados como concluídos; o cabeçalho do README ainda informa “Em Desenvolvimento” |
+| Metodologia | Scrum, com sprints, reuniões diárias, revisões e retrospectivas |
+| Situação do projeto | Concluído, incluindo as três sprints e a apresentação na Feira de Soluções |
 
 ---
 
@@ -67,7 +66,7 @@
 |---|---|
 | Empresa parceira | [Pro4Tech](https://www.linkedin.com/company/pro4tech/) |
 | Representantes | Larissa Souza e Rafael Monteiro |
-| Contexto do desafio | Centralização e acompanhamento do atendimento ao cliente |
+| Contexto do desafio | Atendimento ao cliente, triagem e gestão de demandas |
 | Professor P2 | Gerson Penha |
 | Parceiro acadêmico | Fatec São José dos Campos - Prof. Jessen Vidal |
 
@@ -79,9 +78,11 @@
 
 ## ❗ Problema
 
-O desafio proposto pela Pro4Tech foi organizar o atendimento ao cliente em um fluxo que permitisse registrar as interações e acompanhar cada solicitação desde a triagem inicial até o encerramento. A solução precisava reunir conversas, histórico e gestão dos chamados, permitindo o escalonamento das demandas e maior controle sobre a operação de suporte.
+O atendimento ao cliente precisa conectar a comunicação com o solicitante ao acompanhamento de sua demanda. Sem um fluxo estruturado, torna-se mais difícil recuperar o histórico das interações, identificar o responsável por cada chamado, encaminhar solicitações e acompanhar sua resolução.
 
-A jornada deveria começar por uma **triagem automatizada**, capaz de coletar informações iniciais e orientar o atendimento. Além de facilitar a comunicação entre solicitantes e atendentes, o projeto deveria oferecer recursos gerenciais para acompanhar o desempenho da operação e a satisfação dos clientes.
+O desafio proposto pela Pro4Tech foi desenvolver uma aplicação mobile que centralizasse o atendimento em um sistema de chat, com registro completo das conversas e controle da abertura, do escalonamento e do encerramento dos chamados. A jornada deveria começar por uma triagem automatizada, permitindo identificar a necessidade do cliente antes do atendimento humano.
+
+Além da experiência do solicitante, o projeto precisava atender às necessidades dos atendentes e gestores, oferecendo organização operacional, controle de acesso, acompanhamento de indicadores e avaliação da qualidade do suporte.
 
 ---
 
@@ -91,30 +92,36 @@ A jornada deveria começar por uma **triagem automatizada**, capaz de coletar in
 
 ## ✅ Solução
 
-O **SyncDesk** reúne uma aplicação mobile para solicitantes, uma interface web para atendentes e administradores, uma API central e uma biblioteca compartilhada de integração. Essa organização permite que os diferentes perfis utilizem interfaces adequadas às suas atividades e compartilhem o mesmo fluxo de atendimento.
+Desenvolvemos o **SyncDesk**, uma plataforma que integra um aplicativo mobile para solicitantes, uma aplicação web para atendentes e administradores e uma API central para as regras de negócio e a persistência dos dados.
 
-O backend concentra as regras de negócio, o controle de acesso, a triagem e a persistência dos dados. As interfaces utilizam comunicação em tempo real para as conversas e chamadas REST para operações como consulta de histórico e gerenciamento de chamados. A biblioteca compartilhada padroniza a comunicação dos clientes com o backend.
+O cliente inicia o atendimento pelo aplicativo, responde à triagem automatizada e acompanha a conversa e o chamado. Na interface web, os atendentes dão continuidade ao suporte, organizam as solicitações e atualizam sua situação. Os administradores gerenciam usuários, acompanham a operação e consultam os indicadores do sistema.
 
-### Principais funcionalidades documentadas
+A comunicação combina **APIs REST** para consultas e operações de negócio com **WebSocket** para o chat em tempo real. O **PostgreSQL** armazena os dados relacionais, enquanto o **MongoDB** mantém as mensagens e as interações das conversas.
 
-- Troca de mensagens entre solicitantes e atendentes em uma tela de chat.
-- Triagem automatizada com perguntas iniciais e respostas estruturadas.
-- Abertura, atribuição, encaminhamento, atualização de status e encerramento de chamados.
-- Cadastro, autenticação e controle de permissões por perfil.
-- Administração de usuários e monitoramento dos atendimentos.
-- Consulta e pesquisa no histórico das conversas.
-- Alertas na interface para identificar novas mensagens.
-- Dashboards e gráficos de auditoria para acompanhamento da operação.
-- Avaliação do atendimento após o encerramento do chamado.
+### Principais funcionalidades
+
+- Autenticação, recuperação de senha e controle de acesso por perfil.
+- Cadastro e gerenciamento de usuários, empresas e produtos.
+- Triagem automatizada para identificar a demanda do solicitante.
+- Abertura, atribuição, encaminhamento, escalonamento e encerramento de chamados.
+- Chat em tempo real entre solicitantes e atendentes.
+- Consulta ao histórico e pesquisa de conversas.
+- Alertas de novas mensagens e atualizações de chamados.
+- Dashboards e indicadores para acompanhamento do atendimento.
+- Avaliação da satisfação do cliente após o encerramento.
+- Gerenciamento de perfil e configurações de conta.
+- Armazenamento de arquivos e integração com envio de e-mails.
 
 ### Organização da solução
 
 | Componente | Responsabilidade |
 |---|---|
-| SyncDesk API | Regras de negócio, autenticação, usuários, chamados, triagem, métricas e persistência |
-| SyncDesk Mobile | Interface do solicitante, abertura de atendimentos, chat e histórico |
-| SyncDesk Web | Interface de atendentes e administradores, gestão de chamados, usuários e dashboards |
-| SyncDesk Library | Contratos e chamadas compartilhadas para integração das interfaces com o backend |
+| SyncDesk API | Autenticação, regras de negócio, chamados, triagem, conversas, arquivos e persistência |
+| SyncDesk Mobile | Acesso do solicitante ao atendimento, aos chamados, ao histórico e ao perfil |
+| SyncDesk Web | Operação dos atendentes e administração de usuários, chamados e indicadores |
+| SyncDesk Library | SDK compartilhado de integração, desenvolvido por outro integrante da equipe |
+
+As aplicações também possuem tratamento de sessão, estados de carregamento, retorno de erros e atualização das informações. Na interface web, o WebSocket atende à conversa aberta, enquanto a consulta periódica de dados mantém os avisos globais de novas mensagens e alterações nos chamados.
 
 ---
 
@@ -124,15 +131,13 @@ O backend concentra as regras de negócio, o controle de acesso, a triagem e a p
 
 ## 📅 Cronograma e entregas
 
-| Etapa | Data registrada | Situação no README fornecido |
-|---|---|---|
-| Kick-off | 03/03/2026 | Concluído |
-| Sprint 1 | 05/04/2026 | Concluída; demonstração em vídeo disponível |
-| Sprint 2 | 03/05/2026 | Concluída |
-| Sprint 3 | 31/05/2026 | Concluída |
-| Feira de Soluções | 25/06/2026 | Registrada como “Não iniciado”; realização não confirmada no material |
-
-O backlog registra como concluídas as funcionalidades das três sprints. Como o mesmo README mantém o projeto “Em Desenvolvimento” e a Feira de Soluções como “Não iniciado”, esses registros não permitem confirmar o encerramento formal do projeto.
+| Etapa | Data | Principais entregas | Situação |
+|---|---|---|---|
+| Kick-off | 03/03/2026 | Apresentação do desafio e alinhamento inicial com a empresa parceira | Concluído |
+| Sprint 1 | 05/04/2026 | Chat, triagem inicial e gerenciamento do ciclo de vida dos chamados | Concluída |
+| Sprint 2 | 03/05/2026 | Recursos administrativos e pesquisa no histórico de conversas | Concluída |
+| Sprint 3 | 31/05/2026 | Alertas, dashboards, auditoria e avaliação do atendimento | Concluída |
+| Feira de Soluções | 25/06/2026 | Apresentação do projeto e demonstração da solução desenvolvida | Concluída |
 
 ---
 
@@ -142,11 +147,11 @@ O backlog registra como concluídas as funcionalidades das três sprints. Como o
 
 ## 🔗 Link do repositório Git
 
-- [Repositório principal e documentação do SyncDesk](https://github.com/Titus-System/SyncDesk)
+- [Repositório principal do SyncDesk](https://github.com/Titus-System/SyncDesk)
 - [SyncDesk API — backend](https://github.com/Titus-System/syncdesk-api)
 - [SyncDesk Mobile — aplicativo](https://github.com/Titus-System/syncdesk-mobile)
 - [SyncDesk Web — interface de atendimento e administração](https://github.com/Titus-System/syncdesk-web)
-- [SyncDesk Library — biblioteca compartilhada](https://github.com/Titus-System/syncdesk-library)
+- [SyncDesk Library — biblioteca compartilhada da equipe](https://github.com/Titus-System/syncdesk-library)
 
 ---
 
@@ -158,7 +163,7 @@ O backlog registra como concluídas as funcionalidades das três sprints. Como o
 
 [▶️ Assistir à demonstração da Sprint 1](https://youtu.be/ucNTISGGgis)
 
-O vídeo está indicado na documentação do projeto como entrega da primeira sprint. Ele não representa, necessariamente, todas as funcionalidades das sprints posteriores.
+A demonstração apresenta a primeira etapa do SyncDesk, com o fluxo inicial de atendimento. Nas sprints seguintes, ampliamos a solução com recursos administrativos, pesquisa de histórico, alertas, indicadores e avaliação do suporte.
 
 ---
 
@@ -184,21 +189,21 @@ O vídeo está indicado na documentação do projeto como entrega da primeira sp
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="48" height="48" alt="Docker" title="Docker">
 </p>
 
-| Área | Tecnologias | Aplicação documentada no projeto |
+| Área | Tecnologias | Aplicação no projeto |
 |---|---|---|
-| Backend | Python e FastAPI | API central, regras de negócio, usuários, chamados e triagem automatizada |
-| Persistência relacional | PostgreSQL e SQLAlchemy | Dados estruturados e acesso aos dados no backend |
-| Persistência de mensagens | MongoDB | Armazenamento de mensagens e interações |
-| Autenticação | JWT | Autenticação no backend e suporte ao controle de acesso |
-| Aplicação mobile | React Native, Expo, TypeScript e TailwindCSS | Interface dos solicitantes e integração com o atendimento |
-| Aplicação web | React, JavaScript, Vite e TailwindCSS | Interface de atendentes e administradores |
-| Estado assíncrono | React Query | Consulta e sincronização de dados na aplicação web |
-| Comunicação | WebSocket e APIs REST | Mensagens em tempo real, histórico e operações do sistema |
-| Biblioteca compartilhada | TypeScript, Axios e npm | Padronização e distribuição da integração com o backend |
-| Testes e qualidade | Pytest e ESLint | Ferramentas de testes e análise de código citadas na documentação |
-| Ambiente e versionamento | Docker, Node.js, Git e GitHub | Ferramentas indicadas para o ambiente de desenvolvimento e colaboração |
-
-As tecnologias desta seção pertencem à solução da equipe. A experiência individual com cada uma deve ser registrada separadamente na autoavaliação abaixo.
+| Backend | Python, FastAPI e Uvicorn | Endpoints, regras de negócio e execução da API |
+| Dados relacionais | PostgreSQL, SQLAlchemy Async e Alembic | Persistência, consultas assíncronas e controle das alterações do banco |
+| Dados de conversas | MongoDB, Motor e Beanie | Armazenamento e acesso às mensagens e interações |
+| Autenticação | JWT, Passlib e Argon2 | Sessões, controle de acesso e proteção das senhas |
+| Frontend web | React, JavaScript/JSX, Vite, React Router e Tailwind CSS | Telas administrativas e operacionais, navegação e estilização |
+| Estado e consultas web | TanStack React Query, Zustand e Axios | Requisições, cache, estado de autenticação e notificações |
+| Aplicação mobile | React Native, Expo, Expo Router, TypeScript e NativeWind | Telas, navegação e experiência de atendimento no aplicativo |
+| Sessão e consultas mobile | Expo Secure Store e TanStack React Query | Armazenamento de tokens, consultas e atualização dos dados |
+| Comunicação | REST e WebSocket | Integração com o backend e chat em tempo real |
+| Arquivos e e-mail | MinIO/S3 e Resend | Armazenamento de arquivos e envio de mensagens por e-mail |
+| Observabilidade | Prometheus, Grafana, Loki e Promtail | Métricas, painéis e centralização de logs |
+| Testes e qualidade | Pytest, Jest, Ruff, mypy, Bandit, ESLint e Prettier | Testes automatizados, tipagem, análise e padronização do código |
+| Ambiente e colaboração | Docker, Docker Compose, Poetry, Node.js, npm, Git e GitHub | Organização do ambiente, dependências e desenvolvimento em equipe |
 
 ---
 
@@ -208,17 +213,17 @@ As tecnologias desta seção pertencem à solução da equipe. A experiência in
 
 ## 👨‍💻 Contribuições pessoais
 
-Atuei como **desenvolvedor (Dev Team)** na equipe do SyncDesk, conforme a composição de integrantes registrada no README do projeto.
+Atuei como **desenvolvedor fullstack**, contribuindo com o backend, o frontend web e a aplicação mobile. Minha participação envolveu a implementação de funcionalidades e a integração entre as camadas, acompanhando o caminho das informações desde a interação do usuário até seu processamento e armazenamento.
 
-**Pendente de preenchimento pelo aluno:** detalhar as atividades realizadas individualmente. O material fornecido descreve as responsabilidades dos componentes, mas não associa funcionalidades, decisões técnicas ou artefatos específicos a cada desenvolvedor.
+No backend, trabalhei com **Python e FastAPI** na construção e no ajuste de endpoints, validações e regras de negócio relacionadas aos usuários, chamados e atendimentos. Também participei da integração com **PostgreSQL e MongoDB**, considerando a diferença entre os dados relacionais da operação e o histórico das conversas.
 
-| Aspecto do relato | Informação a completar |
-|---|---|
-| Escopo de atuação | [PREENCHER: componentes em que atuei e responsabilidades assumidas] |
-| Entregas individuais | [PREENCHER: funcionalidades, correções, testes ou documentação que produzi] |
-| Decisão ou desafio técnico | [PREENCHER: problema enfrentado, solução adotada e justificativa] |
-| Integração com a equipe | [PREENCHER: como alinhei minha entrega com os demais componentes] |
-| Resultado e evidências | [PREENCHER: resultado observado e links de commits, pull requests, issues ou demonstrações] |
+Na aplicação web, contribuí com telas e componentes em **React**, consumo de serviços com **Axios**, gerenciamento de consultas e atualização das informações apresentadas ao usuário. Trabalhei na integração dos fluxos de autenticação, gerenciamento de chamados e atendimento, considerando as permissões de cada perfil, os estados de carregamento e o tratamento de erros.
+
+No aplicativo mobile, atuei com **React Native, Expo e TypeScript**, participando da construção e integração das interfaces de acesso, acompanhamento de chamados e comunicação com o suporte. Essa atuação exigiu atenção à navegação, à manutenção da sessão e às diferenças entre o funcionamento no navegador, no emulador e no dispositivo móvel.
+
+Também participei dos ajustes de comunicação em tempo real e da validação dos fluxos entre as interfaces e a API. A integração do chat exigiu alinhar o histórico recuperado por requisições HTTP às novas mensagens recebidas pelo WebSocket, mantendo a experiência de atendimento coerente entre os participantes.
+
+Ao longo das sprints, colaborei na identificação de problemas, nos testes das funcionalidades e na organização das entregas. Os principais artefatos da minha atuação foram endpoints, regras de negócio, componentes de interface, integrações com a API, ajustes de persistência e correções nos fluxos de atendimento. A **SyncDesk Library foi desenvolvida por outro integrante da equipe**; minha contribuição se concentrou nos componentes da aplicação e em sua integração.
 
 ---
 
@@ -229,15 +234,26 @@ Atuei como **desenvolvedor (Dev Team)** na equipe do SyncDesk, conforme a compos
 ## 🧠 Hard skills
 
 <details>
-  <summary><strong>Clique para visualizar a autoavaliação técnica a completar</strong></summary>
+  <summary><strong>Clique para visualizar as hard skills desenvolvidas no projeto</strong></summary>
 
 <br>
 
-Registrar apenas tecnologias utilizadas pessoalmente. Utilizar o mesmo padrão dos relatórios anteriores para o nível de proficiência, como “Sei fazer com autonomia” ou “Faço com ajuda”.
-
-| Hard skill | Nível de proficiência | Evidência individual no projeto |
+| Hard skill | Nível de proficiência | Evidência no projeto |
 |---|---|---|
-| [PREENCHER: tecnologia ou competência utilizada] | [PREENCHER: autoavaliação] | [PREENCHER: entrega concreta e referência] |
+| Python e FastAPI | Sei fazer com autonomia | Desenvolvimento de endpoints, validações e regras de negócio |
+| SQL e PostgreSQL | Sei fazer com autonomia | Consultas e persistência dos dados de usuários e chamados |
+| MongoDB | Sei fazer com autonomia | Integração com dados de conversas e histórico de mensagens |
+| React e JavaScript | Sei fazer com autonomia | Desenvolvimento e integração das interfaces web |
+| React Native, Expo e TypeScript | Sei fazer com autonomia | Construção de telas e consumo de serviços no aplicativo mobile |
+| HTML, CSS, Tailwind CSS e NativeWind | Sei fazer com autonomia | Organização visual e adaptação das interfaces web e mobile |
+| APIs REST e Axios | Sei fazer com autonomia | Comunicação entre as interfaces e os serviços do backend |
+| WebSocket | Sei fazer com autonomia | Integração do envio e recebimento de mensagens em tempo real |
+| React Query e gerenciamento de estado | Sei fazer com autonomia | Controle de consultas, carregamento e atualização das telas |
+| Autenticação e autorização | Sei fazer com autonomia | Integração de sessão e tratamento das permissões por perfil |
+| Testes e depuração | Sei fazer com autonomia | Validação de fluxos e correção de problemas entre frontend e backend |
+| Docker e Docker Compose | Sei fazer com autonomia | Execução do ambiente e dos serviços utilizados no desenvolvimento |
+| Observabilidade | Faço com ajuda | Consulta a logs e indicadores para apoiar a investigação de problemas |
+| Git e GitHub | Sei fazer com autonomia | Versionamento e integração das entregas com a equipe |
 
 </details>
 
@@ -250,15 +266,19 @@ Registrar apenas tecnologias utilizadas pessoalmente. Utilizar o mesmo padrão d
 ## 🤝 Soft skills
 
 <details>
-  <summary><strong>Clique para visualizar o registro de competências comportamentais a completar</strong></summary>
+  <summary><strong>Clique para visualizar as soft skills desenvolvidas no projeto</strong></summary>
 
 <br>
 
-Descrever situações vivenciadas pessoalmente, indicando a ação realizada e o resultado. A participação em uma equipe Scrum, por si só, não identifica quais competências foram exercitadas por cada integrante.
-
 | Soft skill | Exemplo pontual no projeto |
 |---|---|
-| [PREENCHER: competência exercitada] | [PREENCHER: situação, ação pessoal e resultado] |
+| Comunicação | Alinhei com a equipe os dados enviados e recebidos pelas interfaces para manter os fluxos de atendimento consistentes |
+| Colaboração | Trabalhei em conjunto com outros desenvolvedores na integração entre backend, aplicação web e aplicativo mobile |
+| Organização | Dividi as atividades em entregas menores e acompanhei suas dependências durante as sprints |
+| Resolução de problemas | Investiguei falhas de integração considerando requisições, sessão, persistência e comportamento das telas |
+| Adaptabilidade | Alternei entre tecnologias de backend, web e mobile conforme as necessidades do projeto |
+| Atenção à experiência do usuário | Considerei mensagens de erro, carregamento e atualização do chat para tornar o atendimento mais claro |
+| Responsabilidade | Validei os fluxos em que atuei antes de integrá-los às entregas da equipe |
 
 </details>
 
@@ -270,9 +290,13 @@ Descrever situações vivenciadas pessoalmente, indicando a ação realizada e o
 
 ## 📚 Aprendizados
 
-**[PREENCHER — reflexão pessoal sobre o 5º API.]** Relatar o principal aprendizado, um desafio superado e a evolução em relação aos semestres anteriores, relacionando a reflexão às entregas individuais descritas acima.
+O SyncDesk ampliou minha visão sobre desenvolvimento fullstack ao reunir backend, aplicação web e aplicativo mobile em uma mesma solução. Aprendi que uma funcionalidade de atendimento precisa manter consistência em todas essas camadas: a ação realizada em uma interface deve produzir o resultado esperado na API e ser refletida corretamente para os demais usuários.
 
-O contexto técnico do SyncDesk envolve a integração entre aplicações mobile e web, atendimento em tempo real, persistência em bancos diferentes e organização do ciclo de vida dos chamados. Esses temas podem orientar a reflexão quando corresponderem à experiência efetivamente vivenciada pelo aluno.
+O trabalho com comunicação em tempo real reforçou a importância de diferenciar o histórico persistido das novas mensagens recebidas durante uma conversa. Também aprofundei meu entendimento sobre estados de conexão, autenticação, atualização de dados e tratamento de falhas, aspectos que influenciam diretamente a experiência de uso.
+
+A utilização de PostgreSQL e MongoDB ajudou a consolidar minha compreensão sobre a escolha de estruturas de armazenamento conforme a necessidade de cada domínio. Ao mesmo tempo, a atuação com React e React Native exigiu adaptar componentes e fluxos às particularidades de cada plataforma.
+
+Concluir as sprints e apresentar o projeto na Feira de Soluções reforçou a importância de integrar o trabalho técnico à organização da equipe e à comunicação do valor da solução. Essa experiência consolidou minha capacidade de contribuir em diferentes partes de um produto, mantendo atenção à funcionalidade completa e ao problema do cliente.
 
 ---
 

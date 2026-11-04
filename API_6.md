@@ -2,18 +2,16 @@
 
 <p align="center">
   <strong>6º Semestre • 2026-2</strong><br>
-  Aplicação web inteligente para definição e simulação de regras de negócio por voz<br>
-  Papel exercido no Scrum: <strong>A confirmar pelo aluno</strong>
+  Plataforma inteligente para definição e simulação de regras de comissionamento por texto e voz<br>
+  Papel exercido no Scrum: <strong>Desenvolvedor</strong>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Projeto%20Acad%C3%AAmico-Fatec%20SJC-blue?style=for-the-badge" alt="Projeto Acadêmico Fatec SJC">
   <img src="https://img.shields.io/badge/Tipo-Plataforma%20Web-informational?style=for-the-badge" alt="Plataforma Web">
-  <img src="https://img.shields.io/badge/Foco-IA%20e%20Regras%20de%20Neg%C3%B3cio-success?style=for-the-badge" alt="IA e regras de negócio">
-  <img src="https://img.shields.io/badge/Entrega%20prevista-03%2F12%2F2026-orange?style=for-the-badge" alt="Entrega prevista para 03/12/2026">
+  <img src="https://img.shields.io/badge/Papel-Desenvolvedor-orange?style=for-the-badge" alt="Desenvolvedor">
+  <img src="https://img.shields.io/badge/Foco-IA%20e%20Simula%C3%A7%C3%A3o-success?style=for-the-badge" alt="Inteligência artificial e simulação">
 </p>
-
-> **Documentação para o TG II:** relatório baseado no README do Synapse fornecido para esta atualização, com entrega programada para 03/12/2026. As funcionalidades são apresentadas como escopo proposto, pois o material não informa seu estado de conclusão. Papel Scrum, stack de implementação, contribuições e autoavaliação individuais estão sinalizados para preenchimento.
 
 ---
 
@@ -49,11 +47,12 @@
 | Semestre do curso | 6º semestre |
 | Ano e semestre | 2026-2 |
 | Nome do projeto | Synapse |
-| Tipo de sistema | Aplicação web inteligente |
-| Papel no Scrum | [PREENCHER: papel exercido pelo aluno no 6º API] |
+| Tipo de sistema | Plataforma web com inteligência artificial e processamento assíncrono |
+| Papel no Scrum | Desenvolvedor |
+| Atuação técnica | Fullstack: frontend, backend, dados e integração entre serviços |
 | Equipe | Titus Systems |
-| Público previsto | Profissionais de recursos humanos, gestores e auditores |
-| Situação documentada | Projeto com desenvolvimento previsto de 07/09/2026 a 22/11/2026 e entrega programada para 03/12/2026 |
+| Público-alvo | Profissionais de recursos humanos, gestores e auditores |
+| Situação do projeto | Em desenvolvimento, com entregas incrementais e apresentação final prevista para 03/12/2026 |
 
 ---
 
@@ -67,7 +66,7 @@
 |---|---|
 | Empresa parceira | [Dom Rock](https://www.domrock.net/) |
 | Pontos focais | Luiz Otavio e Andre Almeida |
-| Contexto do desafio | Estruturação de regras de negócio, simulação de impacto financeiro e rastreabilidade das decisões |
+| Contexto do desafio | Estruturação de regras de negócio, simulação financeira e rastreabilidade das decisões |
 | Parceiro acadêmico | Fatec São José dos Campos - Prof. Jessen Vidal |
 
 ---
@@ -78,11 +77,11 @@
 
 ## ❗ Problema
 
-Empresas lidam com mudanças frequentes em produtos, preços, acordos comerciais e campanhas de comissionamento. Quando as regras dessas operações não são registradas de forma estruturada, parte do conhecimento permanece tácita, dificultando sua preservação, aplicação consistente e auditoria.
+As regras de negócio de uma empresa mudam com o lançamento de produtos, a revisão de preços, os acordos comerciais e as campanhas de comissionamento. Quando essas regras permanecem dispersas ou dependem do conhecimento de pessoas específicas, aumentam as dificuldades para preservar o histórico, evitar conflitos e compreender o efeito de uma alteração.
 
-O desafio do Synapse é transformar a definição dessas regras em um processo mais acessível e rastreável. Além de capturar a intenção do usuário, a solução precisa permitir a avaliação de impactos financeiros e tornar compreensível o caminho entre a regra recebida, seu processamento e o resultado da simulação.
+O desafio da Dom Rock foi estruturar esse conhecimento e permitir que novas regras fossem definidas de maneira acessível, inclusive por voz. Além de interpretar a solicitação, a solução precisava avaliar seu impacto financeiro antes da aplicação, comparar os resultados com o cenário atual da empresa e oferecer recursos de rastreabilidade e revisão.
 
-No recorte do backlog, **regra de negócio** corresponde ao conjunto de parâmetros que define o comissionamento após o alcance de uma meta de vendas.
+No Synapse, trabalhamos com regras de **comissionamento associadas a metas de vendas**. Esse recorte exige atenção aos parâmetros da regra, ao período analisado, aos dados históricos e à diferença entre uma sugestão produzida por inteligência artificial e um resultado financeiro calculado sobre os dados.
 
 ---
 
@@ -92,23 +91,41 @@ No recorte do backlog, **regra de negócio** corresponde ao conjunto de parâmet
 
 ## ✅ Solução
 
-O **Synapse** é proposto como uma aplicação web na qual o usuário define regras de negócio por **comandos de voz**. A inteligência artificial deve interpretar a intenção e convertê-la em código processável, permitindo simular o impacto financeiro da regra e compará-lo com o cenário de referência da empresa, denominado *baseline*.
+Desenvolvemos o **Synapse**, uma plataforma web que recebe propostas de regras de comissionamento por texto ou voz, estrutura seus parâmetros e simula seus efeitos financeiros. O usuário acompanha o processamento, revisa as informações da regra e consulta o resultado em comparação com o **baseline**, que representa o cenário de referência da empresa.
 
-A proposta inclui a validação dos parâmetros recebidos, a sugestão de adaptações quando houver incompatibilidade ou inviabilidade orçamentária e o registro das informações utilizadas no processo. A explicação das decisões do modelo generativo e a geração de relatórios integram o escopo de transparência e auditoria.
+A solução utiliza inteligência artificial para interpretar a solicitação e gerar o código da regra. Esse código é executado em um ambiente isolado, sobre as bases utilizadas na simulação. Os cálculos financeiros são realizados de forma determinística pelo processamento da aplicação, enquanto o modelo de linguagem apoia a interpretação e a geração da lógica.
 
-### Funcionalidades previstas no backlog
+O fluxo também contempla identificação de conflitos, correção da proposta, avaliação de viabilidade e sugestão de adaptações. As versões das regras, os artefatos do processamento e os resultados são preservados para permitir acompanhamento e consulta posterior.
 
-| Funcionalidade | Finalidade | Sprint planejada |
+### Principais funcionalidades
+
+- Autenticação e controle de acesso com Keycloak.
+- Entrada de regras de negócio por texto ou gravação de voz.
+- Transcrição do áudio em português e extração estruturada dos parâmetros.
+- Validação da regra e apresentação de conflitos para correção pelo usuário.
+- Geração assistida de código Python para a simulação.
+- Execução do código em containers isolados, com controle de recursos e tempo.
+- Comparação do comissionamento simulado com o baseline e o orçamento.
+- Sugestão de adaptação da regra e de meta de vendas conforme o resultado.
+- Acompanhamento do progresso do processamento na interface.
+- Histórico de regras, versões e resultados das simulações.
+- Relatório de resultados com filtros e detalhamento dos valores.
+- Registro de transições, decisões e artefatos para rastreabilidade.
+
+### Arquitetura e integração
+
+Organizamos o projeto em um monorepositório com quatro componentes principais:
+
+| Componente | Tecnologias principais | Responsabilidade |
 |---|---|---|
-| Simulação dos resultados da regra | Verificar a viabilidade dos parâmetros de comissionamento | 1 |
-| Relatório após o processamento | Registrar a regra finalizada e sua simulação para consulta posterior | 1 |
-| Captura de voz e transcrição | Facilitar a entrada da regra de negócio | 2 |
-| Sugestão automática de adaptações | Propor ajustes diante de incompatibilidade dos parâmetros | 2 |
-| Validação dos dados recebidos por voz | Confirmar os parâmetros antes da simulação | 2 |
-| Registro dos dados processados | Permitir a verificação das fontes e do fluxo da simulação | 3 |
-| Explicação das decisões tomadas | Oferecer transparência aos resultados e apoio à auditoria | 3 |
+| Frontend | Vue 3, TypeScript, Vite e Pinia | Entrada da regra, correção, acompanhamento do processamento, histórico e resultados |
+| API | Java 21 e Spring Boot | Endpoints REST, autenticação, submissões, estado das simulações, eventos SSE e persistência |
+| Codegen | Python, LangGraph e Gemini | Extração da regra, validação, geração de código e condução do fluxo de adaptação |
+| Worker | Python, RabbitMQ e Docker | Execução isolada do código, cálculo dos resultados e verificação de viabilidade |
 
-As sprints indicadas representam o planejamento presente no README; não equivalem à confirmação de implementação ou homologação de cada funcionalidade.
+A API, o Codegen e o Worker trocam eventos por **RabbitMQ**. Os eventos transportam referências aos artefatos, e o **PostgreSQL** mantém os dados e o histórico necessários ao processamento. O frontend utiliza **REST** para operações e consultas e **Server-Sent Events (SSE)** para receber atualizações do andamento da simulação.
+
+Essa separação permite acompanhar tarefas que demandam mais tempo sem manter uma requisição HTTP aberta durante todo o cálculo. Também delimita as responsabilidades: a API controla o ciclo da simulação, o Codegen produz a lógica assistida por IA e o Worker executa e avalia o resultado.
 
 ---
 
@@ -118,19 +135,19 @@ As sprints indicadas representam o planejamento presente no README; não equival
 
 ## 📅 Cronograma e entregas
 
-| Evento | Data ou período previsto |
-|---|---|
-| Kick-off | 26/08/2026 |
-| Desenvolvimento | 07/09/2026 a 22/11/2026 |
-| Feira de Soluções / entrega programada | 03/12/2026 |
+| Etapa | Data | Foco da entrega | Situação |
+|---|---|---|---|
+| Kick-off | 26/08/2026 | Entendimento do desafio e alinhamento com a Dom Rock | Concluído |
+| Sprint 1 | 27/09/2026 | Entrada por texto, simulação de viabilidade e histórico dos resultados | Concluída |
+| Sprint 2 | 25/10/2026 | Entrada por voz e assistência para adaptação das regras | Concluída |
+| Sprint 3 | 22/11/2026 | Auditoria, transparência e validação dos parâmetros | Em desenvolvimento |
+| Feira de Soluções | 03/12/2026 | Apresentação final do projeto | Programada |
 
 ### Documentação das sprints
 
 - [Sprint 1](https://github.com/Titus-System/synapse/blob/main/sprints/sprint-1.md)
 - [Sprint 2](https://github.com/Titus-System/synapse/blob/main/sprints/sprint-2.md)
 - [Sprint 3](https://github.com/Titus-System/synapse/blob/main/sprints/sprint-3.md)
-
-Esses endereços constam no README fornecido. O conteúdo dos relatórios de sprint não integra o material utilizado nesta atualização.
 
 ---
 
@@ -140,7 +157,12 @@ Esses endereços constam no README fornecido. O conteúdo dos relatórios de spr
 
 ## 🔗 Link do repositório Git
 
-- [Repositório principal e documentação do Synapse](https://github.com/Titus-System/synapse)
+- [Repositório principal do Synapse](https://github.com/Titus-System/synapse)
+- [Frontend](https://github.com/Titus-System/synapse/tree/main/frontend)
+- [API](https://github.com/Titus-System/synapse/tree/main/api)
+- [Codegen](https://github.com/Titus-System/synapse/tree/main/codegen)
+- [Worker](https://github.com/Titus-System/synapse/tree/main/worker)
+- [Contratos entre componentes](https://github.com/Titus-System/synapse/tree/main/contracts)
 
 ---
 
@@ -150,9 +172,13 @@ Esses endereços constam no README fornecido. O conteúdo dos relatórios de spr
 
 ## 🖥️ Preview da aplicação
 
-O README fornecido apresenta imagens de identificação e roadmap, mas não inclui uma demonstração da aplicação em funcionamento.
+### Sprint 1 — entrada por texto e simulação
 
-**[PREENCHER: inserir vídeo, GIF ou capturas de tela de uma entrega do Synapse, identificando a sprint e as funcionalidades demonstradas.]**
+https://github.com/user-attachments/assets/4031c0ad-1c23-4672-8da4-0ac0ffbc73ed
+
+### Sprint 2 — entrada por voz e adaptação de regras
+
+https://github.com/user-attachments/assets/5c50876b-64d8-44c6-9050-4d9dfb758745
 
 ---
 
@@ -162,30 +188,41 @@ O README fornecido apresenta imagens de identificação e roadmap, mas não incl
 
 ## 🛠️ Tecnologias utilizadas
 
-O README descreve os recursos técnicos da solução, mas não identifica linguagens, frameworks, banco de dados, provedor de transcrição ou modelo de inteligência artificial. Por isso, esses recursos são apresentados abaixo separadamente da stack de implementação a confirmar.
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" width="48" height="48" alt="Vue.js" title="Vue.js">
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="48" height="48" alt="TypeScript" title="TypeScript">
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="48" height="48" alt="Java" title="Java">
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="48" height="48" alt="Spring Boot" title="Spring Boot">
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="48" height="48" alt="Python" title="Python">
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="PostgreSQL" title="PostgreSQL">
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg" width="48" height="48" alt="RabbitMQ" title="RabbitMQ">
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="48" height="48" alt="Docker" title="Docker">
+</p>
 
-### Recursos técnicos descritos na proposta
-
-| Recurso | Aplicação prevista |
-|---|---|
-| Interface web | Interação do usuário com a definição e a simulação de regras |
-| Captura de voz e transcrição | Conversão da entrada falada em conteúdo utilizável no fluxo |
-| Inteligência artificial generativa | Interpretação da intenção, conversão em código processável e sugestão de adaptações |
-| Simulação de impacto financeiro | Comparação dos resultados da regra com o baseline da empresa |
-| Validação de parâmetros | Conferência dos dados recebidos antes da simulação |
-| Registro e explicação do processamento | Rastreabilidade dos dados e transparência das decisões |
-| Geração de relatórios | Histórico das regras e dos resultados das simulações |
-
-### Stack de implementação — a completar
-
-| Camada | Informação a confirmar no código ou na documentação técnica |
-|---|---|
-| Frontend | [PREENCHER: linguagem, framework e principais bibliotecas] |
-| Backend | [PREENCHER: linguagem, framework e organização dos serviços] |
-| Dados | [PREENCHER: banco de dados e persistência do histórico] |
-| Voz | [PREENCHER: ferramenta ou serviço de captura e transcrição] |
-| Inteligência artificial | [PREENCHER: modelo, provedor e bibliotecas efetivamente utilizados] |
-| Qualidade e execução | [PREENCHER: ferramentas de testes, ambiente e implantação] |
+| Área | Tecnologias | Aplicação no projeto |
+|---|---|---|
+| Frontend | Vue 3, TypeScript, Vite e Vue Router | Componentes, telas, navegação e integração com os serviços |
+| Estado e apresentação | Pinia e Tailwind CSS | Estado compartilhado, acompanhamento da simulação e estilização |
+| API principal | Java 21, Spring Boot, Spring Security e JDBC | Endpoints, autenticação, regras de negócio e acesso aos dados |
+| Banco de dados | PostgreSQL e Liquibase | Persistência, histórico, artefatos e evolução do esquema |
+| Serviços Python | Python 3.12, SQLAlchemy, asyncpg e Pydantic | Processamento assíncrono, acesso aos dados e validação de estruturas |
+| Inteligência artificial | LangGraph, LangChain e Google Gemini | Orquestração do processamento, extração de parâmetros e geração de código |
+| Entrada por voz | MediaRecorder e Deepgram | Captura do áudio no navegador e transcrição em português |
+| Mensageria | RabbitMQ, Spring AMQP e aio-pika | Troca de eventos e coordenação do processamento entre serviços |
+| Atualizações da interface | REST e SSE | Operações do usuário e acompanhamento do andamento da simulação |
+| Autenticação | Keycloak, OAuth 2.0, OpenID Connect e JWT | Login, sessão e acesso autenticado à API |
+| Execução isolada | Docker e containers efêmeros | Execução controlada do código Python gerado pela IA |
+| Contratos | OpenAPI e JSON Schema | Definição e validação das interfaces HTTP, eventos e dados compartilhados |
+| Observabilidade | FastAPI, Prometheus, OpenTelemetry e Grafana Alloy | Endpoints operacionais, métricas, logs e coleta de telemetria |
+| Testes | Vitest, Vue Test Utils, Pytest, Spring Boot Test e Testcontainers | Verificação de componentes, serviços, integrações e contratos |
+| Qualidade e colaboração | ESLint, Oxlint, Ruff, mypy, Bandit, Git e GitHub | Análise de código, tipagem, versionamento e integração do trabalho da equipe |
 
 ---
 
@@ -195,16 +232,17 @@ O README descreve os recursos técnicos da solução, mas não identifica lingua
 
 ## 👨‍💻 Contribuições pessoais
 
-**Pendente de preenchimento pelo aluno:** o README fornecido não informa o papel individual de Matheus Germano nem atribui entregas a integrantes específicos. O relato deve distinguir atividades concluídas de responsabilidades ou entregas ainda previstas.
+Atuo como **desenvolvedor fullstack**, participando da implementação e integração das funcionalidades do Synapse. Minha atuação conecta a experiência do usuário no frontend às regras de negócio, à persistência dos dados e ao processamento realizado pelos serviços do backend.
 
-| Aspecto do relato | Informação a completar |
-|---|---|
-| Papel no Scrum | [PREENCHER: papel exercido e eventuais mudanças durante o semestre] |
-| Escopo de atuação | [PREENCHER: módulos, responsabilidades e participação nas sprints] |
-| Entregas concluídas | [PREENCHER: funcionalidades, testes, correções ou documentação produzidos] |
-| Desafio e decisão técnica | [PREENCHER: problema enfrentado, alternativas e solução adotada] |
-| Resultado e evidências | [PREENCHER: resultado observado e links de commits, pull requests, issues ou demonstrações] |
-| Atividades em andamento | [PREENCHER: pendências pessoais e situação na data da entrega do portfólio] |
+No frontend, trabalho com **Vue 3 e TypeScript** na construção e integração das telas de entrada de regras, acompanhamento da simulação e consulta aos resultados. Também contribuo com o tratamento de estados de carregamento, erros e atualizações do processamento, buscando apresentar ao usuário informações coerentes com a etapa em que sua solicitação se encontra.
+
+No backend, participo do desenvolvimento e dos ajustes dos fluxos em **Java e Spring Boot**, incluindo endpoints, validações, consultas e integração com o **PostgreSQL**. Essa atuação envolve manter consistência entre os dados enviados pela interface, as regras armazenadas e as respostas disponibilizadas para acompanhamento e histórico.
+
+Na integração com os serviços em **Python**, contribuo para conectar a entrada da regra ao processamento assistido por inteligência artificial e à execução da simulação. O trabalho com **RabbitMQ** e os contratos compartilhados exige atenção aos formatos das mensagens, aos identificadores e às mudanças de estado, para que as etapas sejam acompanhadas corretamente pela aplicação.
+
+Também participo da integração dos recursos de voz e da apresentação dos parâmetros extraídos, considerando a necessidade de revisão e correção pelo usuário. Nos resultados, trabalho com a disponibilização das informações calculadas pelos serviços, preservando a distinção entre a interpretação realizada pela IA e os valores produzidos pela simulação.
+
+Ao longo das sprints, colaboro na validação dos fluxos completos, na investigação de problemas de integração e nos ajustes necessários às entregas. Os principais artefatos da minha atuação incluem componentes de interface, endpoints, regras de validação, consultas, integração de eventos e correções no fluxo entre submissão, processamento, histórico e resultado.
 
 ---
 
@@ -215,15 +253,28 @@ O README descreve os recursos técnicos da solução, mas não identifica lingua
 ## 🧠 Hard skills
 
 <details>
-  <summary><strong>Clique para visualizar a autoavaliação técnica a completar</strong></summary>
+  <summary><strong>Clique para visualizar as hard skills desenvolvidas no projeto</strong></summary>
 
 <br>
 
-Relacionar competências efetivamente exercitadas às entregas individuais. Informar o nível de proficiência no padrão dos relatórios anteriores, como “Sei fazer com autonomia” ou “Faço com ajuda”.
-
-| Hard skill | Nível de proficiência | Evidência individual no projeto |
+| Hard skill | Nível de proficiência | Evidência no projeto |
 |---|---|---|
-| [PREENCHER: tecnologia ou competência utilizada] | [PREENCHER: autoavaliação] | [PREENCHER: entrega concreta e referência] |
+| Vue 3 e TypeScript | Sei fazer com autonomia | Desenvolvimento e integração de telas e componentes da aplicação |
+| HTML, CSS e Tailwind CSS | Sei fazer com autonomia | Organização visual dos formulários, estados e resultados |
+| Pinia e gerenciamento de estado | Sei fazer com autonomia | Acompanhamento das informações da sessão e das simulações |
+| Java e Spring Boot | Sei fazer com autonomia | Endpoints, validações e integração das regras de negócio |
+| Python | Sei fazer com autonomia | Integração com os serviços de processamento e simulação |
+| SQL e PostgreSQL | Sei fazer com autonomia | Consultas, persistência e recuperação do histórico |
+| Integração REST e SSE | Sei fazer com autonomia | Envio das operações e atualização do progresso na interface |
+| RabbitMQ e processamento assíncrono | Sei fazer com autonomia | Integração do fluxo de eventos e acompanhamento das etapas |
+| JSON Schema e contratos de dados | Sei fazer com autonomia | Alinhamento de estruturas entre frontend, API e serviços Python |
+| Autenticação e controle de acesso | Sei fazer com autonomia | Integração da sessão com os fluxos protegidos da aplicação |
+| Integração com inteligência artificial | Sei fazer com autonomia | Conexão entre entrada da regra, processamento e apresentação dos resultados |
+| LangGraph | Faço com ajuda | Acompanhamento e integração das etapas do fluxo assistido por IA |
+| Docker | Sei fazer com autonomia | Uso do ambiente em containers e apoio à validação das integrações |
+| Testes e depuração | Sei fazer com autonomia | Verificação de fluxos e investigação de falhas entre componentes |
+| Observabilidade | Faço com ajuda | Uso de logs e informações de execução para acompanhar o processamento |
+| Git e GitHub | Sei fazer com autonomia | Versionamento e colaboração durante as sprints |
 
 </details>
 
@@ -236,15 +287,20 @@ Relacionar competências efetivamente exercitadas às entregas individuais. Info
 ## 🤝 Soft skills
 
 <details>
-  <summary><strong>Clique para visualizar o registro de competências comportamentais a completar</strong></summary>
+  <summary><strong>Clique para visualizar as soft skills desenvolvidas no projeto</strong></summary>
 
 <br>
 
-Registrar exemplos pessoais com contexto, ação e resultado. Situações de comunicação com a equipe, entendimento das regras de negócio ou análise crítica dos resultados da IA podem ser utilizadas quando tiverem sido vivenciadas pelo aluno.
-
 | Soft skill | Exemplo pontual no projeto |
 |---|---|
-| [PREENCHER: competência exercitada] | [PREENCHER: situação, ação pessoal e resultado] |
+| Pensamento analítico | Relacionei os parâmetros informados pelo usuário às etapas necessárias para simular e apresentar o resultado |
+| Comunicação técnica | Alinhei estruturas de dados e comportamentos esperados com os integrantes responsáveis pelos diferentes componentes |
+| Colaboração | Participei dos ajustes de integração entre frontend, API e serviços de processamento |
+| Resolução de problemas | Investiguei falhas considerando o fluxo completo da solicitação, desde a interface até o retorno dos eventos |
+| Pensamento crítico | Considerei a necessidade de validar os parâmetros e conferir os resultados antes de apresentá-los como uma regra viável |
+| Adaptabilidade | Trabalhei com Vue, Java e Python conforme as necessidades das funcionalidades e integrações |
+| Organização | Acompanhei tarefas e dependências para integrar as entregas dentro do planejamento das sprints |
+| Responsabilidade | Dei atenção à consistência das informações e à rastreabilidade das operações em uma aplicação que trabalha com simulações financeiras |
 
 </details>
 
@@ -256,9 +312,13 @@ Registrar exemplos pessoais com contexto, ação e resultado. Situações de com
 
 ## 📚 Aprendizados
 
-**[PREENCHER — reflexão pessoal sobre o 6º API.]** Explicar o aprendizado obtido nas atividades já realizadas, um desafio técnico ou de colaboração e a relação dessa experiência com a evolução ao longo do curso.
+O Synapse aprofundou minha compreensão sobre a integração de inteligência artificial em uma aplicação de negócio. Aprendi que interpretar a solicitação do usuário é apenas uma parte do problema: também é necessário validar os parâmetros, controlar o processamento, executar a lógica com segurança e apresentar resultados que possam ser compreendidos e conferidos.
 
-O contexto do Synapse permite discutir a transformação de linguagem natural em regras processáveis, a validação de parâmetros, a comparação de cenários e a explicação de decisões de inteligência artificial. A reflexão final deve selecionar os temas ligados à atuação individual e considerar o estágio real do projeto na entrega do TG II.
+A arquitetura com serviços separados ampliou minha visão sobre processamento assíncrono. O uso de eventos exige atenção ao estado da solicitação, à consistência dos contratos e à recuperação de falhas. Para o usuário, isso precisa se traduzir em uma interface que explique o progresso e permita acompanhar o resultado sem expor a complexidade interna do sistema.
+
+Outro aprendizado importante foi distinguir geração de código e cálculo financeiro. A IA apoia a interpretação e a construção da lógica, enquanto os valores da simulação dependem da execução controlada sobre os dados. Essa separação reforçou meu cuidado com validação, rastreabilidade e revisão humana.
+
+Minha atuação fullstack também fortaleceu a capacidade de transitar entre diferentes tecnologias e entender como uma decisão em uma camada afeta as demais. O projeto conecta conhecimentos desenvolvidos ao longo do curso em interfaces, backend, dados, integração e inteligência artificial, ampliando minha visão sobre a construção de soluções completas para problemas reais.
 
 ---
 

@@ -87,10 +87,12 @@ Minha trajetória profissional e acadêmica me ajudou a construir um perfil anal
 
 | Área | Conhecimentos desenvolvidos |
 |---|---|
-| Backend | Python, FastAPI, Java, C#, ASP.NET, TypeScript, NestJS, criação de APIs REST e implementação de regras de negócio |
-| Frontend | React, Vite, HTML, CSS, Bootstrap, construção de telas e integração com backend |
-| Dados | ETL, limpeza e padronização de dados, SQL, PostgreSQL, SQL Server, MySQL, modelagem relacional e otimização de consultas |
-| Inteligência Artificial | Ollama, RAG, modelos de linguagem, agentes de IA, extração automatizada de informações e integração de IA com sistemas web |
+| Backend | Python, FastAPI, Java, Spring Boot, C#, ASP.NET, TypeScript, NestJS, APIs REST e implementação de regras de negócio |
+| Frontend | React, Vue, TypeScript, Vite, HTML, CSS, Tailwind CSS, Bootstrap, gerenciamento de estado e integração com backend |
+| Mobile | React Native, Expo, TypeScript, navegação, consumo de APIs e integração com atendimento em tempo real |
+| Dados | ETL, limpeza e padronização de dados, SQL, PostgreSQL, MongoDB, SQL Server, MySQL, modelagem e otimização de consultas |
+| Inteligência Artificial | Ollama, RAG, modelos de linguagem, Gemini, integração com LangGraph, extração automatizada de informações e integração de IA com sistemas web |
+| Integração entre sistemas | APIs REST, WebSocket, SSE, RabbitMQ, processamento assíncrono e contratos de dados |
 | Infraestrutura | Linux, Windows Server, Active Directory, DHCP, DNS, SAMBA, Zabbix e Grafana |
 | Gestão e métodos ágeis | Scrum, Product Owner, Scrum Master, backlog, sprint planning, sprint review, refinamento e validação com cliente |
 | Ferramentas | Git, GitHub, Trello, Figma, VS Code, IntelliJ, Google Colab e Jira em nível básico/intermediário |
@@ -105,20 +107,18 @@ Minha trajetória profissional e acadêmica me ajudou a construir um perfil anal
 
 ## 🚀 Projetos API
 
-Este portfólio reúne os seis projetos de **Aprendizagem por Projetos Integrados (API)** dos semestres do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas, compondo o **Trabalho de Graduação II**. Os relatórios apresentam o contexto de cada desafio, a solução e as tecnologias documentadas, além das seções de atuação individual e desenvolvimento de competências.
+Neste portfólio, apresento os seis projetos de **Aprendizagem por Projetos Integrados (API)** dos quais participei durante o Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas, como parte do **Trabalho de Graduação II**. Em cada relatório, descrevo o desafio, a solução, as tecnologias utilizadas, minhas contribuições e as competências desenvolvidas ao longo do semestre.
 
-O **SyncDesk**, do 5º semestre, amplia o portfólio com atendimento integrado por aplicações mobile e web. O **Synapse**, do 6º semestre, aborda a definição de regras de negócio por voz, simulação de impacto financeiro e auditoria com inteligência artificial, com entrega programada para **03/12/2026**.
+No **SyncDesk**, do 5º semestre, atuei como desenvolvedor fullstack em uma plataforma de atendimento com aplicações mobile e web. O projeto foi concluído, incluindo a apresentação na Feira de Soluções. No **Synapse**, do 6º semestre, atuo como desenvolvedor fullstack em uma plataforma de regras de comissionamento por texto e voz, com simulação financeira e inteligência artificial. A apresentação final está programada para **03/12/2026**.
 
-> **Pendências para finalizar o relato individual:** completar os campos `[PREENCHER]` nos relatórios [API 5](./API_5.md#contribuicoes-pessoais) e [API 6](./API_6.md#contribuicoes-pessoais). Os READMEs dos projetos não detalham as entregas pessoais nem os níveis de proficiência; no Synapse, também faltam a identificação do papel Scrum e a stack de implementação. Os campos estão sinalizados para revisão antes da entrega acadêmica.
-
-| Identificador | Empresa parceira | Breve descrição da solução ou proposta | Papel Scrum | Arquivo |
+| Identificador | Empresa parceira | Breve descrição da solução | Papel Scrum | Arquivo |
 |---|---|---|---|---|
 | [1º Semestre - 2024-1](./API_1.md) | Fatec São José dos Campos - Prof. Jessen Vidal | Sistema web informativo sobre Metodologia Ágil, com conteúdos, avaliações, feedbacks e área administrativa | Scrum Master | [API_1.md](./API_1.md) |
 | [2º Semestre - 2024-2](./API_2.md) | Fatec São José dos Campos - Prof. Jessen Vidal | Aplicação desktop para cadastro, extração, consulta, edição e manutenção de informações de relatórios clínicos | Desenvolvedor | [API_2.md](./API_2.md) |
 | [3º Semestre - 2025-1](./API_3.md) | Fatec São José dos Campos - Prof. Jessen Vidal | Plataforma web para análise de importação e exportação dos estados brasileiros com dados tratados por ETL e disponibilizados via API REST | Product Owner | [API_3.md](./API_3.md) |
 | [4º Semestre - 2025-2](./API_4.md) | TecSys Brasil | Plataforma web com agente de IA para apoiar a instrução de registro aduaneiro, com RAG, Ollama, revisão humana e geração de Excel | Desenvolvedor | [API_4.md](./API_4.md) |
-| [5º Semestre - 2026-1](./API_5.md) | Pro4Tech | Sistema de atendimento com triagem automatizada, chat em tempo real, gestão de chamados, aplicativo mobile e interface web | Desenvolvedor (Dev Team) | [API_5.md](./API_5.md) |
-| [6º Semestre - 2026-2](./API_6.md) | Dom Rock | Aplicação web proposta para definir regras de comissionamento por voz, simular impacto financeiro e registrar decisões de IA para auditoria | A confirmar pelo aluno | [API_6.md](./API_6.md) |
+| [5º Semestre - 2026-1](./API_5.md) | Pro4Tech | Sistema de atendimento com triagem automatizada, chat em tempo real, gestão de chamados, aplicativo mobile e interface web | Desenvolvedor | [API_5.md](./API_5.md) |
+| [6º Semestre - 2026-2](./API_6.md) | Dom Rock | Plataforma web para definir regras de comissionamento por texto e voz, simular impacto financeiro e acompanhar resultados com rastreabilidade | Desenvolvedor | [API_6.md](./API_6.md) |
 
 ---
 
@@ -143,7 +143,7 @@ PortfolioADS/
         └── matheus-germano.jpg
 ```
 
-Cada API possui um arquivo separado para facilitar a leitura, a navegação e a avaliação. O `README.md` concentra a apresentação geral do aluno e a tabela de projetos. Os arquivos `API_1.md` a `API_6.md` seguem a organização por empresa parceira, problema, solução, repositório, tecnologias, contribuições pessoais, hard skills, soft skills e aprendizados. Os dois últimos relatórios incluem o cronograma documentado e identificam as informações individuais ainda pendentes de preenchimento.
+Organizei cada API em um arquivo separado para facilitar a leitura, a navegação e a avaliação. O `README.md` reúne minha apresentação e a visão geral dos projetos. Nos arquivos `API_1.md` a `API_6.md`, detalho a empresa parceira, o problema, a solução, os repositórios, as tecnologias, minhas contribuições, hard skills, soft skills e aprendizados. Nos relatórios do SyncDesk e do Synapse, também apresento o cronograma das entregas.
 
 ---
 
@@ -153,7 +153,7 @@ Cada API possui um arquivo separado para facilitar a leitura, a navegação e a 
 
 ## 📈 Evolução durante o curso
 
-Ao longo dos quatro primeiros APIs, minha evolução ocorreu de forma progressiva. No primeiro semestre, além de desenvolver páginas para o projeto Horus, assumi o papel de Scrum Master, organizando o time e ajudando a transformar o conteúdo sobre metodologia ágil em uma aplicação web funcional.
+Ao longo dos seis APIs, minha evolução ocorreu de forma progressiva. No primeiro semestre, além de desenvolver páginas para o projeto Horus, assumi o papel de Scrum Master, organizando o time e ajudando a transformar o conteúdo sobre metodologia ágil em uma aplicação web funcional.
 
 No segundo semestre, passei a atuar de forma mais técnica como integrante do time de desenvolvimento, contribuindo com estrutura, telas, lógica de negócio e funcionalidades em um sistema voltado à extração de informações de documentos. Esse projeto ampliou minha compreensão sobre aplicações com banco de dados, interface, regras de negócio e uso de modelos de linguagem e visão.
 
@@ -161,11 +161,11 @@ No terceiro semestre, atuei como Product Owner, desenvolvedor backend e respons�
 
 No quarto semestre, aprofundei minha atuação em backend e inteligência artificial aplicada. No AdaTech, trabalhei na estrutura do sistema, na criação de regras de negócio e na implementação de recursos envolvendo **RAG**, **Ollama** e automação da geração de instruções de registro aduaneiro. A experiência exigiu atenção a dados sensíveis, precisão técnica, integração entre IA e sistema web, além de cuidado com conformidade e revisão humana.
 
-No quinto semestre, participei do **SyncDesk** como integrante do time de desenvolvimento. O projeto, realizado com a Pro4Tech, reúne aplicações mobile e web, comunicação em tempo real, triagem automatizada e gestão de chamados. Esse contexto amplia a sequência de projetos do portfólio para a integração de múltiplas interfaces em um mesmo serviço de atendimento; as entregas individuais serão detalhadas no [relatório do API 5](./API_5.md#contribuicoes-pessoais).
+No quinto semestre, atuei como **desenvolvedor fullstack** no **SyncDesk**, em parceria com a Pro4Tech. Contribuí com backend, frontend web e aplicativo mobile, integrando autenticação, chamados, triagem e comunicação em tempo real. O projeto ampliou minha experiência com Python, FastAPI, React, React Native, PostgreSQL e MongoDB, além de reforçar o cuidado com a consistência dos dados e a experiência do usuário em diferentes plataformas. Concluímos as sprints e apresentamos a solução na Feira de Soluções.
 
-No sexto semestre, o **Synapse**, em parceria com a Dom Rock, traz como desafio a definição de regras de negócio por voz, a simulação de seus impactos financeiros e a rastreabilidade das decisões tomadas com apoio de inteligência artificial. O [relatório do API 6](./API_6.md) registra a proposta e o planejamento disponíveis, com os campos pessoais a completar conforme a atuação e as entregas efetivamente realizadas.
+No sexto semestre, atuo como **desenvolvedor fullstack** no **Synapse**, em parceria com a Dom Rock. O projeto reúne Vue, TypeScript, Java, Spring Boot e serviços Python em uma arquitetura com processamento assíncrono. Participo da integração entre a definição de regras por texto ou voz, o processamento assistido por IA e a apresentação dos resultados das simulações. Essa experiência aprofunda minha compreensão sobre contratos de dados, mensageria, validação e rastreabilidade.
 
-A sequência dos seis projetos apresenta desafios progressivamente mais abrangentes: metodologia ágil e desenvolvimento web, tratamento de documentos, análise de dados, inteligência artificial aplicada, atendimento integrado e simulação de regras de negócio. A reflexão sobre a evolução individual nos dois últimos semestres será consolidada com as contribuições e evidências registradas nos respectivos relatórios.
+Minha trajetória nos seis projetos conecta organização de equipe, desenvolvimento de interfaces, backend, tratamento de dados e inteligência artificial aplicada. Ao longo do curso, ampliei minha autonomia para atuar em diferentes camadas de uma aplicação e passei a considerar com mais atenção a relação entre necessidade de negócio, decisão técnica, qualidade da entrega e experiência do usuário.
 
 ---
 
