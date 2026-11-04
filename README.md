@@ -1,7 +1,7 @@
 # Portfólio ADS - Matheus Germano
 
 <p align="center">
-  <strong>Trabalho de Graduação 1</strong><br>
+  <strong>Trabalho de Graduação II</strong><br>
   Portfólio de Aprendizagem por Projetos Integrados - API<br>
   Fatec São José dos Campos - Prof. Jessen Vidal<br>
   Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas
@@ -11,7 +11,9 @@
   <a href="./API_1.md">API 1</a> •
   <a href="./API_2.md">API 2</a> •
   <a href="./API_3.md">API 3</a> •
-  <a href="./API_4.md">API 4</a>
+  <a href="./API_4.md">API 4</a> •
+  <a href="./API_5.md">API 5</a> •
+  <a href="./API_6.md">API 6</a>
 </p>
 
 ---
@@ -47,7 +49,7 @@ Meu nome é **Matheus Germano**, tenho **23 anos** e sou de **São José dos Cam
 
 
 ### Curso
-Atualmente curso o **5º semestre do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas** na **Fatec São José dos Campos - Prof. Jessen Vidal**.
+Atualmente curso o **6º semestre do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas** na **Fatec São José dos Campos - Prof. Jessen Vidal**.
 
 ### Histórico acadêmico
 
@@ -103,14 +105,20 @@ Minha trajetória profissional e acadêmica me ajudou a construir um perfil anal
 
 ## 🚀 Projetos API
 
-Este portfólio apresenta os quatro primeiros projetos de **Aprendizagem por Projetos Integrados (API)** desenvolvidos durante o curso. Como ainda estou no 5º semestre, os APIs do 5º e 6º semestres serão documentados posteriormente.
+Este portfólio reúne os seis projetos de **Aprendizagem por Projetos Integrados (API)** dos semestres do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas, compondo o **Trabalho de Graduação II**. Os relatórios apresentam o contexto de cada desafio, a solução e as tecnologias documentadas, além das seções de atuação individual e desenvolvimento de competências.
 
-| Identificador | Empresa parceira | Breve descrição da solução desenvolvida | Papel Scrum | Arquivo |
+O **SyncDesk**, do 5º semestre, amplia o portfólio com atendimento integrado por aplicações mobile e web. O **Synapse**, do 6º semestre, aborda a definição de regras de negócio por voz, simulação de impacto financeiro e auditoria com inteligência artificial, com entrega programada para **03/12/2026**.
+
+> **Pendências para finalizar o relato individual:** completar os campos `[PREENCHER]` nos relatórios [API 5](./API_5.md#contribuicoes-pessoais) e [API 6](./API_6.md#contribuicoes-pessoais). Os READMEs dos projetos não detalham as entregas pessoais nem os níveis de proficiência; no Synapse, também faltam a identificação do papel Scrum e a stack de implementação. Os campos estão sinalizados para revisão antes da entrega acadêmica.
+
+| Identificador | Empresa parceira | Breve descrição da solução ou proposta | Papel Scrum | Arquivo |
 |---|---|---|---|---|
 | [1º Semestre - 2024-1](./API_1.md) | Fatec São José dos Campos - Prof. Jessen Vidal | Sistema web informativo sobre Metodologia Ágil, com conteúdos, avaliações, feedbacks e área administrativa | Scrum Master | [API_1.md](./API_1.md) |
 | [2º Semestre - 2024-2](./API_2.md) | Fatec São José dos Campos - Prof. Jessen Vidal | Aplicação desktop para cadastro, extração, consulta, edição e manutenção de informações de relatórios clínicos | Desenvolvedor | [API_2.md](./API_2.md) |
 | [3º Semestre - 2025-1](./API_3.md) | Fatec São José dos Campos - Prof. Jessen Vidal | Plataforma web para análise de importação e exportação dos estados brasileiros com dados tratados por ETL e disponibilizados via API REST | Product Owner | [API_3.md](./API_3.md) |
 | [4º Semestre - 2025-2](./API_4.md) | TecSys Brasil | Plataforma web com agente de IA para apoiar a instrução de registro aduaneiro, com RAG, Ollama, revisão humana e geração de Excel | Desenvolvedor | [API_4.md](./API_4.md) |
+| [5º Semestre - 2026-1](./API_5.md) | Pro4Tech | Sistema de atendimento com triagem automatizada, chat em tempo real, gestão de chamados, aplicativo mobile e interface web | Desenvolvedor (Dev Team) | [API_5.md](./API_5.md) |
+| [6º Semestre - 2026-2](./API_6.md) | Dom Rock | Aplicação web proposta para definir regras de comissionamento por voz, simular impacto financeiro e registrar decisões de IA para auditoria | A confirmar pelo aluno | [API_6.md](./API_6.md) |
 
 ---
 
@@ -127,10 +135,15 @@ PortfolioADS/
 ├── API_1.md
 ├── API_2.md
 ├── API_3.md
-└── API_4.md
+├── API_4.md
+├── API_5.md
+├── API_6.md
+└── assets/
+    └── perfil/
+        └── matheus-germano.jpg
 ```
 
-Cada API foi documentado em um arquivo separado para facilitar a leitura, a navegação e a avaliação. O `README.md` concentra a apresentação geral do aluno e a tabela de projetos, enquanto os arquivos `API_1.md`, `API_2.md`, `API_3.md` e `API_4.md` detalham empresa parceira, problema, solução, repositório, tecnologias, contribuições pessoais, hard skills e soft skills desenvolvidas em cada semestre.
+Cada API possui um arquivo separado para facilitar a leitura, a navegação e a avaliação. O `README.md` concentra a apresentação geral do aluno e a tabela de projetos. Os arquivos `API_1.md` a `API_6.md` seguem a organização por empresa parceira, problema, solução, repositório, tecnologias, contribuições pessoais, hard skills, soft skills e aprendizados. Os dois últimos relatórios incluem o cronograma documentado e identificam as informações individuais ainda pendentes de preenchimento.
 
 ---
 
@@ -148,7 +161,11 @@ No terceiro semestre, atuei como Product Owner, desenvolvedor backend e respons�
 
 No quarto semestre, aprofundei minha atuação em backend e inteligência artificial aplicada. No AdaTech, trabalhei na estrutura do sistema, na criação de regras de negócio e na implementação de recursos envolvendo **RAG**, **Ollama** e automação da geração de instruções de registro aduaneiro. A experiência exigiu atenção a dados sensíveis, precisão técnica, integração entre IA e sistema web, além de cuidado com conformidade e revisão humana.
 
-Essa sequência mostra uma evolução clara: comecei organizando equipe e construindo páginas, avancei para implementação de funcionalidades completas, depois assumi responsabilidades de produto, dados e backend, e finalmente passei a atuar em soluções mais complexas envolvendo IA, automação e regras de negócio críticas.
+No quinto semestre, participei do **SyncDesk** como integrante do time de desenvolvimento. O projeto, realizado com a Pro4Tech, reúne aplicações mobile e web, comunicação em tempo real, triagem automatizada e gestão de chamados. Esse contexto amplia a sequência de projetos do portfólio para a integração de múltiplas interfaces em um mesmo serviço de atendimento; as entregas individuais serão detalhadas no [relatório do API 5](./API_5.md#contribuicoes-pessoais).
+
+No sexto semestre, o **Synapse**, em parceria com a Dom Rock, traz como desafio a definição de regras de negócio por voz, a simulação de seus impactos financeiros e a rastreabilidade das decisões tomadas com apoio de inteligência artificial. O [relatório do API 6](./API_6.md) registra a proposta e o planejamento disponíveis, com os campos pessoais a completar conforme a atuação e as entregas efetivamente realizadas.
+
+A sequência dos seis projetos apresenta desafios progressivamente mais abrangentes: metodologia ágil e desenvolvimento web, tratamento de documentos, análise de dados, inteligência artificial aplicada, atendimento integrado e simulação de regras de negócio. A reflexão sobre a evolução individual nos dois últimos semestres será consolidada com as contribuições e evidências registradas nos respectivos relatórios.
 
 ---
 
@@ -158,8 +175,8 @@ Essa sequência mostra uma evolução clara: comecei organizando equipe e constr
 
 ## 🧭 Navegação do portfólio
 
-| 🏠 Página inicial | 1º Semestre | 2º Semestre | 3º Semestre | 4º Semestre |
-|---|---|---|---|---|
-| [README](./README.md) | [API 1 • Horus](./API_1.md) | [API 2 • MindDoc Analyzer](./API_2.md) | [API 3 • AdaTrade](./API_3.md) | [API 4 • AdaTech](./API_4.md) |
+| 🏠 Página inicial | 1º Semestre | 2º Semestre | 3º Semestre | 4º Semestre | 5º Semestre | 6º Semestre |
+|---|---|---|---|---|---|---|
+| [README](./README.md) | [API 1 • Horus](./API_1.md) | [API 2 • MindDoc Analyzer](./API_2.md) | [API 3 • AdaTrade](./API_3.md) | [API 4 • AdaTech](./API_4.md) | [API 5 • SyncDesk](./API_5.md) | [API 6 • Synapse](./API_6.md) |
 
 </div>
